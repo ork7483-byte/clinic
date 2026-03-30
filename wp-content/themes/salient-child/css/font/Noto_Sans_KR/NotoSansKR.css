@@ -1,0 +1,107 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 100;
+  src: url('./noto-sans-kr-v36-korean-100.eot');
+  src: url('./noto-sans-kr-v36-korean-100.eot?#iefix') format('embedded-opentype'),
+       url('./noto-sans-kr-v36-korean-100.woff2') format('woff2'),
+       url('./noto-sans-kr-v36-korean-100.woff') format('woff'),
+       url('./noto-sans-kr-v36-korean-100.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 200;
+  src: url('./noto-sans-kr-v36-korean-200.eot');
+  src: url('./noto-sans-kr-v36-korean-200.eot?#iefix') format('embedded-opentype'),
+       url('./noto-sans-kr-v36-korean-200.woff2') format('woff2'),
+       url('./noto-sans-kr-v36-korean-200.woff') format('woff'),
+       url('./noto-sans-kr-v36-korean-200.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./noto-sans-kr-v36-korean-300.eot');
+  src: url('./noto-sans-kr-v36-korean-300.eot?#iefix') format('embedded-opentype'),
+       url('./noto-sans-kr-v36-korean-300.woff2') format('woff2'),
+       url('./noto-sans-kr-v36-korean-300.woff') format('woff'),
+       url('./noto-sans-kr-v36-korean-300.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./noto-sans-kr-v36-korean-regular.eot');
+  src: url('./noto-sans-kr-v36-korean-regular.eot?#iefix') format('embedded-opentype'),
+       url('./noto-sans-kr-v36-korean-regular.woff2') format('woff2'),
+       url('./noto-sans-kr-v36-korean-regular.woff') format('woff'),
+       url('./noto-sans-kr-v36-korean-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./noto-sans-kr-v36-korean-500.eot');
+  src: url('./noto-sans-kr-v36-korean-500.eot?#iefix') format('embedded-opentype'),
+       url('./noto-sans-kr-v36-korean-500.woff2') format('woff2'),
+       url('./noto-sans-kr-v36-korean-500.woff') format('woff'),
+       url('./noto-sans-kr-v36-korean-500.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./noto-sans-kr-v36-korean-600.eot');
+  src: url('./noto-sans-kr-v36-korean-600.eot?#iefix') format('embedded-opentype'),
+       url('./noto-sans-kr-v36-korean-600.woff2') format('woff2'),
+       url('./noto-sans-kr-v36-korean-600.woff') format('woff'),
+       url('./noto-sans-kr-v36-korean-600.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./noto-sans-kr-v36-korean-700.eot');
+  src: url('./noto-sans-kr-v36-korean-700.eot?#iefix') format('embedded-opentype'),
+       url('./noto-sans-kr-v36-korean-700.woff2') format('woff2'),
+       url('./noto-sans-kr-v36-korean-700.woff') format('woff'),
+       url('./noto-sans-kr-v36-korean-700.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 800;
+  src: url('./noto-sans-kr-v36-korean-800.eot');
+  src: url('./noto-sans-kr-v36-korean-800.eot?#iefix') format('embedded-opentype'),
+       url('./noto-sans-kr-v36-korean-800.woff2') format('woff2'),
+       url('./noto-sans-kr-v36-korean-800.woff') format('woff'),
+       url('./noto-sans-kr-v36-korean-800.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 900;
+  src: url('./noto-sans-kr-v36-korean-900.eot');
+  src: url('./noto-sans-kr-v36-korean-900.eot?#iefix') format('embedded-opentype'),
+       url('./noto-sans-kr-v36-korean-900.woff2') format('woff2'),
+       url('./noto-sans-kr-v36-korean-900.woff') format('woff'),
+       url('./noto-sans-kr-v36-korean-900.ttf') format('truetype');
+}

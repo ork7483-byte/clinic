@@ -1,0 +1,21 @@
+@font-face {
+  font-display: swap;
+  font-family: 'TTBookendBatang';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./TTBookendBatangR.eot');
+  src: url('./TTBookendBatangR.eot?#iefix') format('embedded-opentype'),
+       url('./TTBookendBatangR.woff2') format('woff2'),
+       url('./TTBookendBatangR.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'TTBookendBatang';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./TTBookendBatangSB.eot');
+  src: url('./TTBookendBatangSB.eot?#iefix') format('embedded-opentype'),
+       url('./TTBookendBatangSB.woff2') format('woff2'),
+       url('./TTBookendBatangSB.woff') format('woff');
+}

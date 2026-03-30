@@ -1,0 +1,1057 @@
+<!doctype html>
+<html dir="ltr" lang="ko-KR" prefix="og: https://ogp.me/ns#" class="no-js">
+<head><script>
+(function(){
+  // 1. 기본 reload 차단
+  const noop = function(){ console.log("Blocked reload"); };
+  window.location.reload = noop;
+  
+  // 2. Sanity Live / Next.js Fast Refresh 웹소켓 & EventSource 끊김에 의한 무한 새로고침 차단
+  window.EventSource = function(){ return { close:noop, addEventListener:noop, removeEventListener:noop, readyState:2 }; };
+  window.WebSocket = function(){ return { send:noop, close:noop, addEventListener:noop, removeEventListener:noop, readyState:1 }; };
+
+  // 3. location.replace / assign 을 통한 강제 이동 차단
+  const _replace = window.location.replace;
+  const _assign = window.location.assign;
+  window.location.replace = function(url){ if(url !== window.location.href) _replace.call(window.location, url); };
+  window.location.assign = function(url){ if(url !== window.location.href) _assign.call(window.location, url); };
+
+  // 폼 submit 전송 차단 (백엔드로 데이터 전송 방지)
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('form').forEach(function(form) {
+      form.removeAttribute('action');
+      form.addEventListener('submit', function(e) { e.preventDefault(); }, true);
+    });
+  });
+})();
+</script>
+	<meta charset="UTF-8">
+		<!-- NAVER MAP -->
+		<script type="text/javascript" src="../assets/oapi.map.naver.com/openapi/v3/maps.js"></script>
+	 <!-- End NAVER MAP -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" /><title>색소 · 여드름 · 미백 - 김윤섭피부과의원, 이수역 사당동 피부과</title>
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+		<!-- All in One SEO 4.8.0 - aioseo.com -->
+	<meta name="description" content="다양한 색소 질환에 레이저로 없애는 시술 진행, 색소침착, 여드름흉터 치료, 듀얼토닝 및 피코토닝을 통한 피부 미백관리 피부과" />
+	<meta name="robots" content="max-image-preview:large" />
+	<meta name="keywords" content="주근깨레이저,검버섯없애는법,점빼기,비립종제거,한관종,쥐젖제거,안면홍조,여드름흉터레이저,미백관리,스킨케어,피부관리,피코토닝,레이저토닝,피코프락셀,기미잡티레이저,흑자제거,캘로이드흉터,여드름피부과" />
+	<link rel="canonical" href="/" />
+	<meta name="generator" content="All in One SEO (AIOSEO) 4.8.0" />
+		<meta property="og:locale" content="ko_KR" />
+		<meta property="og:site_name" content="김윤섭피부과의원, 이수역 사당동 피부과" />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="색소 · 여드름 · 미백 - 김윤섭피부과의원, 이수역 사당동 피부과" />
+		<meta property="og:description" content="다양한 색소 질환에 레이저로 없애는 시술 진행, 색소침착, 여드름흉터 치료, 듀얼토닝 및 피코토닝을 통한 피부 미백관리 피부과" />
+		<meta property="og:url" content="https://www.kimskinclinic.co.kr/cosmetic-dermatology/pigmentation-acne-whitening/" />
+		<meta property="og:image" content="https://www.kimskinclinic.co.kr/wp-content/uploads/2025/03/seo_thum.jpg" />
+		<meta property="og:image:secure_url" content="https://www.kimskinclinic.co.kr/wp-content/uploads/2025/03/seo_thum.jpg" />
+		<meta property="og:image:width" content="500" />
+		<meta property="og:image:height" content="500" />
+		<meta property="article:published_time" content="2025-03-05T02:23:27+00:00" />
+		<meta property="article:modified_time" content="2025-03-17T06:37:09+00:00" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="색소 · 여드름 · 미백 - 김윤섭피부과의원, 이수역 사당동 피부과" />
+		<meta name="twitter:description" content="다양한 색소 질환에 레이저로 없애는 시술 진행, 색소침착, 여드름흉터 치료, 듀얼토닝 및 피코토닝을 통한 피부 미백관리 피부과" />
+		<meta name="twitter:image" content="https://www.kimskinclinic.co.kr/wp-content/uploads/2025/03/seo_thum.jpg" />
+		<script type="application/ld+json" class="aioseo-schema">
+			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/www.kimskinclinic.co.kr\/cosmetic-dermatology\/pigmentation-acne-whitening\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/www.kimskinclinic.co.kr\/#listItem","position":1,"name":"Home","item":"https:\/\/www.kimskinclinic.co.kr\/","nextItem":{"@type":"ListItem","@id":"https:\/\/www.kimskinclinic.co.kr\/cosmetic-dermatology\/#listItem","name":"\ud53c\ubd80\ubbf8\uc6a9 \uc2dc\uc220\/\uad00\ub9ac"}},{"@type":"ListItem","@id":"https:\/\/www.kimskinclinic.co.kr\/cosmetic-dermatology\/#listItem","position":2,"name":"\ud53c\ubd80\ubbf8\uc6a9 \uc2dc\uc220\/\uad00\ub9ac","item":"https:\/\/www.kimskinclinic.co.kr\/cosmetic-dermatology\/","nextItem":{"@type":"ListItem","@id":"https:\/\/www.kimskinclinic.co.kr\/cosmetic-dermatology\/pigmentation-acne-whitening\/#listItem","name":"\uc0c9\uc18c \u00b7 \uc5ec\ub4dc\ub984 \u00b7 \ubbf8\ubc31"},"previousItem":{"@type":"ListItem","@id":"https:\/\/www.kimskinclinic.co.kr\/#listItem","name":"Home"}},{"@type":"ListItem","@id":"https:\/\/www.kimskinclinic.co.kr\/cosmetic-dermatology\/pigmentation-acne-whitening\/#listItem","position":3,"name":"\uc0c9\uc18c \u00b7 \uc5ec\ub4dc\ub984 \u00b7 \ubbf8\ubc31","previousItem":{"@type":"ListItem","@id":"https:\/\/www.kimskinclinic.co.kr\/cosmetic-dermatology\/#listItem","name":"\ud53c\ubd80\ubbf8\uc6a9 \uc2dc\uc220\/\uad00\ub9ac"}}]},{"@type":"Organization","@id":"https:\/\/www.kimskinclinic.co.kr\/#organization","name":"\uae40\uc724\uc12d\ud53c\ubd80\uacfc\uc758\uc6d0, \uc774\uc218\uc5ed \uc0ac\ub2f9\ub3d9 \ud53c\ubd80\uacfc","url":"https:\/\/www.kimskinclinic.co.kr\/","telephone":"+8225917789","logo":{"@type":"ImageObject","url":"https:\/\/www.kimskinclinic.co.kr\/wp-content\/uploads\/2025\/03\/seo_thum.jpg","@id":"https:\/\/www.kimskinclinic.co.kr\/cosmetic-dermatology\/pigmentation-acne-whitening\/#organizationLogo","width":500,"height":500},"image":{"@id":"https:\/\/www.kimskinclinic.co.kr\/cosmetic-dermatology\/pigmentation-acne-whitening\/#organizationLogo"}},{"@type":"WebPage","@id":"https:\/\/www.kimskinclinic.co.kr\/cosmetic-dermatology\/pigmentation-acne-whitening\/#webpage","url":"https:\/\/www.kimskinclinic.co.kr\/cosmetic-dermatology\/pigmentation-acne-whitening\/","name":"\uc0c9\uc18c \u00b7 \uc5ec\ub4dc\ub984 \u00b7 \ubbf8\ubc31 - \uae40\uc724\uc12d\ud53c\ubd80\uacfc\uc758\uc6d0, \uc774\uc218\uc5ed \uc0ac\ub2f9\ub3d9 \ud53c\ubd80\uacfc","description":"\ub2e4\uc591\ud55c \uc0c9\uc18c \uc9c8\ud658\uc5d0 \ub808\uc774\uc800\ub85c \uc5c6\uc560\ub294 \uc2dc\uc220 \uc9c4\ud589, \uc0c9\uc18c\uce68\ucc29, \uc5ec\ub4dc\ub984\ud749\ud130 \uce58\ub8cc, \ub4c0\uc5bc\ud1a0\ub2dd \ubc0f \ud53c\ucf54\ud1a0\ub2dd\uc744 \ud1b5\ud55c \ud53c\ubd80 \ubbf8\ubc31\uad00\ub9ac \ud53c\ubd80\uacfc","inLanguage":"ko-KR","isPartOf":{"@id":"https:\/\/www.kimskinclinic.co.kr\/#website"},"breadcrumb":{"@id":"https:\/\/www.kimskinclinic.co.kr\/cosmetic-dermatology\/pigmentation-acne-whitening\/#breadcrumblist"},"datePublished":"2025-03-05T11:23:27+09:00","dateModified":"2025-03-17T15:37:09+09:00"},{"@type":"WebSite","@id":"https:\/\/www.kimskinclinic.co.kr\/#website","url":"https:\/\/www.kimskinclinic.co.kr\/","name":"\uae40\uc724\uc12d\ud53c\ubd80\uacfc\uc758\uc6d0, \uc774\uc218\uc5ed \uc0ac\ub2f9\ub3d9 \ud53c\ubd80\uacfc","inLanguage":"ko-KR","publisher":{"@id":"https:\/\/www.kimskinclinic.co.kr\/#organization"}}]}
+		</script>
+		<!-- All in One SEO -->
+
+
+<!-- WordPress KBoard plugin 6.4 - https://www.cosmosfarm.com/products/kboard -->
+<link rel="alternate" href="/" type="application/rss+xml" title="김윤섭피부과의원, 이수역 사당동 피부과 &raquo; KBoard 통합 피드">
+<!-- WordPress KBoard plugin 6.4 - https://www.cosmosfarm.com/products/kboard -->
+
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//t1.daumcdn.net' />
+<link rel='dns-prefetch' href='//use.fontawesome.com' />
+<link rel="alternate" type="application/rss+xml" title="김윤섭피부과의원, 이수역 사당동 피부과 &raquo; 피드" href="/" />
+<link rel="alternate" type="application/rss+xml" title="김윤섭피부과의원, 이수역 사당동 피부과 &raquo; 댓글 피드" href="/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.kimskinclinic.co.kr\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.2"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='../wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-svg-styles-css' href='../wp-content/uploads/font-awesome/v6.7.2/css/svg-with-js.css' type='text/css' media='all' />
+<style id='font-awesome-svg-styles-inline-css' type='text/css'>
+   .wp-block-font-awesome-icon svg::before,
+   .wp-rich-text-font-awesome-icon svg::before {content: unset;}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:root { --wp--style--global--content-size: 1300px;--wp--style--global--wide-size: 1300px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='JTPOP-popup-show-css' href='../wp-content/plugins/jt-easy-popups-1.2.1/css/jt-popup-show.css' type='text/css' media='all' />
+<link rel='stylesheet' id='JTPOP-font-awesome-css' href='../wp-content/plugins/jt-easy-popups-1.2.1/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css' href='../wp-content/plugins/revslider/public/assets/css/rs6.css' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='sub-style-css' href='../wp-content/themes/salient-child/css/kimskinclinic-nonreim.css' type='text/css' media='all' />
+<link rel='stylesheet' id='project-style-css' href='../wp-content/themes/salient-child/css/kimskinclinic.css' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-style-css' href='../wp-content/themes/salient-child/css/kimskinclinic_rps.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='../wp-content/themes/salient/css/font-awesome-legacy.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='salient-grid-system-css' href='../wp-content/themes/salient/css/build/grid-system.css' type='text/css' media='all' />
+<link rel='stylesheet' id='main-styles-css' href='../wp-content/themes/salient/css/build/style.css' type='text/css' media='all' />
+<style id='main-styles-inline-css' type='text/css'>
+html body[data-header-resize="1"] .container-wrap, 
+			html body[data-header-format="left-header"][data-header-resize="0"] .container-wrap, 
+			html body[data-header-resize="0"] .container-wrap, 
+			body[data-header-format="left-header"][data-header-resize="0"] .container-wrap { 
+				padding-top: 0; 
+			} 
+			.main-content > .row > #breadcrumbs.yoast { 
+				padding: 20px 0; 
+			}
+</style>
+<link rel='stylesheet' id='nectar-header-layout-centered-menu-css' href='../wp-content/themes/salient/css/build/header/header-layout-centered-menu.css' type='text/css' media='all' />
+<link rel='stylesheet' id='nectar-element-scrolling-text-css' href='../wp-content/themes/salient/css/build/elements/element-scrolling-text.css' type='text/css' media='all' />
+<link rel='stylesheet' id='nectar-element-highlighted-text-css' href='../wp-content/themes/salient/css/build/elements/element-highlighted-text.css' type='text/css' media='all' />
+<link rel='stylesheet' id='nectar-element-fancy-unordered-list-css' href='../wp-content/themes/salient/css/build/elements/element-fancy-unordered-list.css' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css' href='../wp-content/themes/salient/css/build/responsive.css' type='text/css' media='all' />
+<link rel='stylesheet' id='skin-material-css' href='../wp-content/themes/salient/css/build/skin-material.css' type='text/css' media='all' />
+<link rel='stylesheet' id='salient-wp-menu-dynamic-css' href='../wp-content/uploads/salient/menu-dynamic.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-official-css' href='../assets/use.fontawesome.com/releases/v6.7.2/css/all.css' type='text/css' media='all' integrity="sha384-nRgPTkuX86pH8yjPJUAFuASXQSSl2/bBUiNV47vSYpKFxHJhbcrGnmlYpYJMeD7a" crossorigin="anonymous" />
+<link rel='stylesheet' id='js_composer_front-css' href='../wp-content/themes/salient/css/build/plugins/js_composer.css' type='text/css' media='all' />
+<link rel='stylesheet' id='dynamic-css-css' href='../wp-content/themes/salient/css/salient-dynamic-styles.css' type='text/css' media='all' />
+<style id='dynamic-css-inline-css' type='text/css'>
+@media only screen and (min-width:1000px){body #ajax-content-wrap.no-scroll{min-height:calc(100vh - 86px);height:calc(100vh - 86px)!important;}}@media only screen and (min-width:1000px){#page-header-wrap.fullscreen-header,#page-header-wrap.fullscreen-header #page-header-bg,html:not(.nectar-box-roll-loaded) .nectar-box-roll > #page-header-bg.fullscreen-header,.nectar_fullscreen_zoom_recent_projects,#nectar_fullscreen_rows:not(.afterLoaded) > div{height:calc(100vh - 85px);}.wpb_row.vc_row-o-full-height.top-level,.wpb_row.vc_row-o-full-height.top-level > .col.span_12{min-height:calc(100vh - 85px);}html:not(.nectar-box-roll-loaded) .nectar-box-roll > #page-header-bg.fullscreen-header{top:86px;}.nectar-slider-wrap[data-fullscreen="true"]:not(.loaded),.nectar-slider-wrap[data-fullscreen="true"]:not(.loaded) .swiper-container{height:calc(100vh - 84px)!important;}.admin-bar .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded),.admin-bar .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded) .swiper-container{height:calc(100vh - 84px - 32px)!important;}}.admin-bar[class*="page-template-template-no-header"] .wpb_row.vc_row-o-full-height.top-level,.admin-bar[class*="page-template-template-no-header"] .wpb_row.vc_row-o-full-height.top-level > .col.span_12{min-height:calc(100vh - 32px);}body[class*="page-template-template-no-header"] .wpb_row.vc_row-o-full-height.top-level,body[class*="page-template-template-no-header"] .wpb_row.vc_row-o-full-height.top-level > .col.span_12{min-height:100vh;}@media only screen and (max-width:999px){.using-mobile-browser #nectar_fullscreen_rows:not(.afterLoaded):not([data-mobile-disable="on"]) > div{height:calc(100vh - 94px);}.using-mobile-browser .wpb_row.vc_row-o-full-height.top-level,.using-mobile-browser .wpb_row.vc_row-o-full-height.top-level > .col.span_12,[data-permanent-transparent="1"].using-mobile-browser .wpb_row.vc_row-o-full-height.top-level,[data-permanent-transparent="1"].using-mobile-browser .wpb_row.vc_row-o-full-height.top-level > .col.span_12{min-height:calc(100vh - 94px);}html:not(.nectar-box-roll-loaded) .nectar-box-roll > #page-header-bg.fullscreen-header,.nectar_fullscreen_zoom_recent_projects,.nectar-slider-wrap[data-fullscreen="true"]:not(.loaded),.nectar-slider-wrap[data-fullscreen="true"]:not(.loaded) .swiper-container,#nectar_fullscreen_rows:not(.afterLoaded):not([data-mobile-disable="on"]) > div{height:calc(100vh - 41px);}.wpb_row.vc_row-o-full-height.top-level,.wpb_row.vc_row-o-full-height.top-level > .col.span_12{min-height:calc(100vh - 41px);}body[data-transparent-header="false"] #ajax-content-wrap.no-scroll{min-height:calc(100vh - 41px);height:calc(100vh - 41px);}}#nectar_fullscreen_rows{background-color:transparent;}.nectar-sticky-media-sections.media-height-80vh .nectar-sticky-media-section__featured-media{height:80vh;}.nectar-scrolling-text .nectar-scrolling-text-inner{overflow:visible;}.nectar-sticky-media-sections.media-width-45pct .nectar-sticky-media-section__featured-media{width:calc(45% - 3%);}@media only screen and (min-width:1000px){.nectar-sticky-media-sections.content-spacing-50vh .nectar-sticky-media-section__content-section:not(:last-child){margin-bottom:50vh;}}.nectar-sticky-media-sections.mobile-aspect-ratio-1-1 .nectar-sticky-media-content__media-wrap{padding-bottom:calc((1 / 1) * 100%);}.nectar-sticky-media-section__content-section{position:relative;}@media only screen and (min-width:1000px){#boxed #ajax-content-wrap{overflow:visible!important;contain:paint;}html body,html body.compensate-for-scrollbar{overflow:visible;}.nectar-sticky-media-sections{display:flex;gap:6%;flex-wrap:nowrap;}.nectar-sticky-media-sections.content-position-left{flex-direction:row-reverse;}.nectar-sticky-media-section__featured-media{position:sticky;top:var(--nectar-sticky-media-sections-vert-y);width:50%;}.nectar-sticky-media-content__media-wrap{display:none;}}@media only screen,print{.wpb_column.top_padding_desktop_100px > .vc_column-inner{padding-top:100px;}.wpb_column.bottom_padding_desktop_120px > .vc_column-inner{padding-bottom:120px;}}@media only screen and (max-width:999px){body .wpb_column.top_padding_tablet_50px > .vc_column-inner{padding-top:50px;}body .wpb_column.bottom_padding_tablet_60px > .vc_column-inner{padding-bottom:60px;}}.centered-text .nectar-split-heading[data-animation-type="line-reveal-by-space"] h1,.centered-text .nectar-split-heading[data-animation-type="line-reveal-by-space"] h2,.centered-text .nectar-split-heading[data-animation-type="line-reveal-by-space"] h3,.centered-text .nectar-split-heading[data-animation-type="line-reveal-by-space"] h4{margin:0 auto;}.nectar-split-heading[data-animation-type="line-reveal-by-space"]:not(.markup-generated){opacity:0;}.nectar-split-heading[data-animation-type="line-reveal-by-space"]:not(.markup-generated).animated-in{opacity:1;}@media only screen and (max-width:999px){.nectar-split-heading[data-m-rm-animation="true"]{opacity:1!important;}}.nectar-split-heading[data-animation-type="line-reveal-by-space"] > * > span{position:relative;display:inline-block;overflow:hidden;}.nectar-split-heading[data-animation-type="line-reveal-by-space"] span{vertical-align:bottom;}.nectar-split-heading[data-animation-type="line-reveal-by-space"] span{line-height:1.2;}@media only screen and (min-width:1000px){.nectar-split-heading[data-animation-type="line-reveal-by-space"]:not(.markup-generated) > *{line-height:1.2;}}@media only screen and (max-width:999px){.nectar-split-heading[data-animation-type="line-reveal-by-space"]:not([data-m-rm-animation="true"]):not(.markup-generated) > *{line-height:1.2;}}.nectar-split-heading[data-animation-type="line-reveal-by-space"][data-stagger="true"]:not([data-text-effect*="letter-reveal"]) span .inner{transition:transform 1.2s cubic-bezier(0.25,1,0.5,1),opacity 1.2s cubic-bezier(0.25,1,0.5,1);}.nectar-split-heading[data-animation-type="line-reveal-by-space"] span .inner{position:relative;display:inline-block;-webkit-transform:translateY(1.3em);transform:translateY(1.3em);}.nectar-split-heading[data-animation-type="line-reveal-by-space"] span .inner.animated{-webkit-transform:none;transform:none;opacity:1;}.nectar-split-heading .heading-line{display:block;overflow:hidden;position:relative}.nectar-split-heading .heading-line >div{display:block;transform:translateY(200%);-webkit-transform:translateY(200%)}.nectar-split-heading h1{margin-bottom:0}.nectar-split-heading[data-animation-type="line-reveal-by-space"][data-align="left"]{display:flex;justify-content:flex-start;}.nectar-split-heading[data-animation-type="line-reveal-by-space"][data-align="center"]{display:flex;justify-content:center;}.nectar-split-heading[data-animation-type="line-reveal-by-space"][data-align="right"]{display:flex;justify-content:flex-end;}@media only screen and (max-width:999px){.nectar-split-heading[data-animation-type="line-reveal-by-space"][data-m-align="left"]{display:flex;justify-content:flex-start;}.nectar-split-heading[data-animation-type="line-reveal-by-space"][data-m-align="center"]{display:flex;justify-content:center;}.nectar-split-heading[data-animation-type="line-reveal-by-space"][data-m-align="right"]{display:flex;justify-content:flex-end;}}@media only screen and (min-width:1000px){.nectar-scrolling-text.font_size_10rem .nectar-scrolling-text-inner *{font-size:10rem;line-height:1em;}}.nectar-highlighted-text[data-color="#e9f1f3"]:not([data-style="text_outline"]) em{background-image:linear-gradient(to right,#e9f1f3 0,#e9f1f3 100%);}.nectar-highlighted-text[data-color="#e9f1f3"]:not([data-style="text_outline"]) em.has-link,.nectar-highlighted-text[data-color="#e9f1f3"]:not([data-style="text_outline"]) a em{background-image:linear-gradient(to right,#e9f1f3 0,#e9f1f3 100%),linear-gradient(to right,#e9f1f3 0,#e9f1f3 100%);}@media only screen,print{.wpb_column.right_padding_desktop_120px > .n-sticky > .vc_column-inner{padding-right:120px;}}@media only screen and (max-width:999px){body .wpb_column.right_padding_tablet_0px > .n-sticky > .vc_column-inner{padding-right:0;}}@media only screen,print{.wpb_column.right_padding_desktop_120px > .vc_column-inner{padding-right:120px;}}@media only screen and (max-width:999px){body .wpb_column.right_padding_tablet_0px > .vc_column-inner{padding-right:0;}}@media only screen,print{.wpb_column.top_padding_desktop_100px > .n-sticky > .vc_column-inner{padding-top:100px;}.wpb_column.bottom_padding_desktop_100px > .n-sticky > .vc_column-inner{padding-bottom:100px;}}@media only screen and (max-width:999px){body .wpb_column.top_padding_tablet_50px > .n-sticky > .vc_column-inner{padding-top:50px;}body .wpb_column.bottom_padding_tablet_50px > .n-sticky > .vc_column-inner{padding-bottom:50px;}}@media only screen,print{.wpb_column.top_padding_desktop_100px > .vc_column-inner{padding-top:100px;}.wpb_column.bottom_padding_desktop_100px > .vc_column-inner{padding-bottom:100px;}}@media only screen and (max-width:999px){body .wpb_column.top_padding_tablet_50px > .vc_column-inner{padding-top:50px;}body .wpb_column.bottom_padding_tablet_50px > .vc_column-inner{padding-bottom:50px;}}@media only screen,print{.wpb_column.top_padding_desktop_100px > .n-sticky > .vc_column-inner{padding-top:100px;}.wpb_column.bottom_padding_desktop_120px > .n-sticky > .vc_column-inner{padding-bottom:120px;}}@media only screen and (max-width:999px){body .wpb_column.top_padding_tablet_50px > .n-sticky > .vc_column-inner{padding-top:50px;}body .wpb_column.bottom_padding_tablet_60px > .n-sticky > .vc_column-inner{padding-bottom:60px;}}@media only screen and (max-width:999px){.mobile-disable-bg-image-animation .row-bg-wrap .inner-wrap,.mobile-disable-bg-image-animation .nectar-video-wrap .nectar-video-inner,.mobile-disable-bg-image-animation .row-bg{animation:none!important;}.mobile-disable-bg-image-animation .row-bg-wrap .row-bg{opacity:1!important;}.mobile-disable-bg-image-animation .row-bg-wrap .inner-wrap{transform:none!important;opacity:1!important;}.mobile-disable-bg-image-animation .row-bg-layer{clip-path:none!important;}}@media only screen and (max-width:999px){.nectar-sticky-media-section__featured-media{display:none;}.nectar-sticky-media-content__media-wrap{display:block;}.nectar-sticky-media-content__media-wrap{position:relative;margin-bottom:45px;}.nectar-sticky-media-sections .nectar-sticky-media-section__content-section:not(:last-child){margin-bottom:100px;}.nectar-sticky-media-sections .nectar-fancy-ul ul{margin-bottom:0;}}.nectar-sticky-media-section__media-wrap{transition:opacity 0.2s ease 0.1s;}.nectar-sticky-media-section__media-wrap.active{transition:opacity 0.2s ease;z-index:100;}.nectar-sticky-media-section__media-wrap:not(.active){opacity:0;}.nectar-sticky-media-section__media,.nectar-sticky-media-section__media-wrap{background-size:cover;background-position:center;position:absolute;left:0;top:0;width:100%;height:100%;}.nectar-sticky-media-section__media video{object-fit:cover;width:100%;height:100%;}.nectar-sticky-media-section__media video.nectar-lazy-video{transition:opacity 0.55s ease 0.25s;opacity:0;}.nectar-sticky-media-section__media video.nectar-lazy-video.loaded{opacity:1;}.nectar-sticky-media-section__media video.fit-contain{object-fit:contain;}.nectar-sticky-media-section__content{flex:1;}@media only screen and (max-width:999px){.divider-wrap.height_tablet_20px > .divider{height:20px!important;}}@media only screen and (max-width:999px){.divider-wrap.height_tablet_10px > .divider{height:10px!important;}}@media only screen and (max-width:999px){.divider-wrap.height_tablet_0px > .divider{height:0!important;}}@media only screen and (max-width:999px){.divider-wrap.height_tablet_80px > .divider{height:80px!important;}}@media only screen and (max-width:999px){.divider-wrap.height_tablet_16px > .divider{height:16px!important;}}@media only screen and (max-width:999px){.divider-wrap.height_tablet_5px > .divider{height:5px!important;}}@media only screen and (min-width:1000px){html body{overflow:visible;}.nectar-sticky-row-wrap{position:sticky;z-index:100;}#header-space{z-index:100;}.wpb_row .row-bg-wrap .row-bg{transform:translateZ(0) scale(1.006);}}.col.padding-3-percent > .vc_column-inner,.col.padding-3-percent > .n-sticky > .vc_column-inner{padding:calc(600px * 0.03);}@media only screen and (max-width:690px){.col.padding-3-percent > .vc_column-inner,.col.padding-3-percent > .n-sticky > .vc_column-inner{padding:calc(100vw * 0.03);}}@media only screen and (min-width:1000px){.col.padding-3-percent > .vc_column-inner,.col.padding-3-percent > .n-sticky > .vc_column-inner{padding:calc((100vw - 180px) * 0.03);}.column_container:not(.vc_col-sm-12) .col.padding-3-percent > .vc_column-inner{padding:calc((100vw - 180px) * 0.015);}}@media only screen and (min-width:1425px){.col.padding-3-percent > .vc_column-inner{padding:calc(1245px * 0.03);}.column_container:not(.vc_col-sm-12) .col.padding-3-percent > .vc_column-inner{padding:calc(1245px * 0.015);}}.full-width-content .col.padding-3-percent > .vc_column-inner{padding:calc(100vw * 0.03);}@media only screen and (max-width:999px){.full-width-content .col.padding-3-percent > .vc_column-inner{padding:calc(100vw * 0.03);}}@media only screen,print{#ajax-content-wrap .font_size_desktop_16px.nectar-cta,.font_size_desktop_16px.nectar-cta{font-size:16px;}}@media only screen,print{#ajax-content-wrap .font_size_desktop_16px.nectar-cta,.font_size_desktop_16px.nectar-cta,#header-outer .font_size_desktop_16px.nectar-cta{font-size:16px;}}@media only screen,print{#ajax-content-wrap .font_size_desktop_16px.nectar-cta *,.font_size_desktop_16px.nectar-cta *{font-size:16px;}}@media only screen,print{#ajax-content-wrap .font_size_desktop_16px.nectar-cta *,.font_size_desktop_16px.nectar-cta *,#header-outer .font_size_desktop_16px.nectar-cta *{font-size:16px;}}#ajax-content-wrap .nectar-cta.border_radius_5px .link_wrap,#header-outer .nectar-cta.border_radius_5px .link_wrap{border-radius:5px!important;}.nectar-cta.border_thickness_1px .link_wrap{border-width:1px;border-style:solid;}.nectar-cta.border_color_rgba(255,255,255,0.2) .link_wrap{border-color:#rgba(255,255,255,0.2);}.nectar-sticky-row-wrap--top{top:0;}@media only screen and (min-width:1000px){.full-width-content .column_container:not(.vc_col-sm-12) .col.padding-3-percent > .vc_column-inner{padding:calc(100vw * 0.015);}}.nectar-cta.font_size_desktop_16px,.nectar-cta.font_size_desktop_16px *{line-height:1.1;}.column-image-bg-wrap[data-bg-pos="center center"] .column-image-bg,.container-wrap .main-content .column-image-bg-wrap[data-bg-pos="center center"] .column-image-bg{background-position:center center;}@media only screen,print{.wpb_column.top_padding_desktop_10vh > .vc_column-inner{padding-top:10vh;}.wpb_column.bottom_padding_desktop_10vh > .vc_column-inner{padding-bottom:10vh;}}@media only screen and (max-width:690px){html body .wpb_column.top_padding_phone_8vh > .vc_column-inner{padding-top:8vh;}html body .wpb_column.bottom_padding_phone_8vh > .vc_column-inner{padding-bottom:8vh;}}.nectar-animated-gradient{opacity:0;z-index:1;transform:translateZ(0);transition:opacity 0.8s ease;}.nectar-animated-gradient.loaded{opacity:1;}.row-bg-wrap.has-animated-gradient{overflow:hidden;}@media only screen,print{.wpb_column.top_padding_desktop_10vh > .n-sticky > .vc_column-inner{padding-top:10vh;}.wpb_column.bottom_padding_desktop_10vh > .n-sticky > .vc_column-inner{padding-bottom:10vh;}}@media only screen and (max-width:690px){html body .wpb_column.top_padding_phone_8vh > .n-sticky > .vc_column-inner{padding-top:8vh;}html body .wpb_column.bottom_padding_phone_8vh > .n-sticky > .vc_column-inner{padding-bottom:8vh;}}@media only screen and (min-width:1000px){.full-width-content .column_container:not(.vc_col-sm-12) .col.padding-2-percent > .vc_column-inner{padding:calc(100vw * 0.01);}}.col.padding-2-percent > .vc_column-inner,.col.padding-2-percent > .n-sticky > .vc_column-inner{padding:calc(600px * 0.03);}@media only screen and (max-width:690px){.col.padding-2-percent > .vc_column-inner,.col.padding-2-percent > .n-sticky > .vc_column-inner{padding:calc(100vw * 0.03);}}@media only screen and (min-width:1000px){.col.padding-2-percent > .vc_column-inner,.col.padding-2-percent > .n-sticky > .vc_column-inner{padding:calc((100vw - 180px) * 0.02);}.column_container:not(.vc_col-sm-12) .col.padding-2-percent > .vc_column-inner{padding:calc((100vw - 180px) * 0.01);}}@media only screen and (min-width:1425px){.col.padding-2-percent > .vc_column-inner{padding:calc(1245px * 0.02);}.column_container:not(.vc_col-sm-12) .col.padding-2-percent > .vc_column-inner{padding:calc(1245px * 0.01);}}.full-width-content .col.padding-2-percent > .vc_column-inner{padding:calc(100vw * 0.02);}@media only screen and (max-width:999px){.full-width-content .col.padding-2-percent > .vc_column-inner{padding:calc(100vw * 0.03);}}@media only screen and (max-width:999px){.divider-wrap.height_tablet_30px > .divider{height:30px!important;}}@media only screen and (max-width:999px){.divider-wrap.height_tablet_40px > div{margin-top:40px!important;margin-bottom:40px!important;}}@media only screen and (max-width:999px){.divider-wrap.height_tablet_9px > .divider{height:9px!important;}}@media only screen and (max-width:999px){.divider-wrap.height_tablet_25px > .divider{height:25px!important;}}@media only screen and (max-width:999px){.divider-wrap.height_tablet_5px > .divider{height:5px!important;}}@media only screen and (max-width:999px){.divider-wrap.height_tablet_35px > .divider{height:35px!important;}}@media only screen and (max-width:999px){.divider-wrap.height_tablet_8px > .divider{height:8px!important;}}@media only screen and (max-width:999px){body .wpb_row .wpb_column.child_column.padding-4-percent_tablet > .vc_column-inner,body .wpb_row .wpb_column.child_column.padding-4-percent_tablet > .n-sticky > .vc_column-inner{padding:calc(999px * 0.04);}}@media only screen and (max-width:999px){.wpb_row.reverse_columns_row_tablet .row_col_wrap_12,.wpb_row.inner_row.reverse_columns_row_tablet .row_col_wrap_12_inner{flex-direction:row-reverse;}.wpb_row.reverse_columns_column_tablet .row_col_wrap_12,.wpb_row.inner_row.reverse_columns_column_tablet .row_col_wrap_12_inner{flex-direction:column-reverse;}.wpb_row.reverse_columns_column_tablet:not([data-column-margin="none"]):not(.full-width-content) > .row_col_wrap_12 > .wpb_column:last-of-type,.wpb_row:not(.full-width-content) .wpb_row.inner_row:not([data-column-margin="none"]).reverse_columns_column_tablet .row_col_wrap_12_inner > .wpb_column:last-of-type{margin-bottom:25px;}.wpb_row.reverse_columns_column_tablet:not([data-column-margin="none"]):not(.full-width-content) > .row_col_wrap_12 > .wpb_column:first-of-type,.wpb_row:not(.full-width-content) .wpb_row.inner_row:not([data-column-margin="none"]).reverse_columns_column_tablet .row_col_wrap_12_inner > .wpb_column:first-of-type{margin-bottom:0;}}@media only screen and (max-width:999px){.nectar-cta.display_tablet_inherit{display:inherit;}}@media only screen and (max-width:999px){.divider-wrap.height_tablet_12px > .divider{height:12px!important;}}@media only screen and (max-width:999px){.divider-wrap.height_tablet_70px > .divider{height:70px!important;}}@media only screen and (max-width:999px){.divider-wrap.height_tablet_6px > .divider{height:6px!important;}}@media only screen and (max-width:690px){.nectar-cta.display_phone_inherit{display:inherit;}}.screen-reader-text,.nectar-skip-to-content:not(:focus){border:0;clip:rect(1px,1px,1px,1px);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute!important;width:1px;word-wrap:normal!important;}.row .col img:not([srcset]){width:auto;}.row .col img.img-with-animation.nectar-lazy:not([srcset]){width:100%;}
+</style>
+<link rel='stylesheet' id='salient-child-style-css' href='../wp-content/themes/salient-child/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='kboard-comments-skin-default-css' href='../wp-content/plugins/kboard-comments/skin/default/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='kboard-editor-media-css' href='../wp-content/plugins/kboard/template/css/editor_media.css' type='text/css' media='all' />
+<link rel='stylesheet' id='kboard-skin-pure-gallery-css' href='../wp-content/plugins/kboard/skin/pure-gallery/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='kboard-skin-default-css' href='../wp-content/plugins/kboard/skin/default/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-official-v4shim-css' href='../assets/use.fontawesome.com/releases/v6.7.2/css/v4-shims.css' type='text/css' media='all' integrity="sha384-npPMK6zwqNmU3qyCCxEcWJkLBNYxEFM1nGgSoAWuCCXqVVz0cvwKEMfyTNkOxM2N" crossorigin="anonymous" />
+<script type="text/javascript" src="../wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="../wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/revslider/public/assets/js/rbtools.min.js" id="tp-tools-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/revslider/public/assets/js/rs6.min.js" id="revmin-js"></script>
+
+<!-- 사이트 킷에서 추가한 구글 태그(gtag.js) 스니펫 -->
+
+<!-- 사이트 킷에 의해 추가된 구글 애널리틱스 스니펫 -->
+<script type="text/javascript" src="../assets/googletagmanager.com/gtag/js/index.html" id="google_gtagjs-js" async></script>
+<script type="text/javascript" id="google_gtagjs-js-after">
+/* <![CDATA[ */
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["www.kimskinclinic.co.kr"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "GT-MR5D2LJ5");
+ window._googlesitekit = window._googlesitekit || {}; window._googlesitekit.throttledEvents = []; window._googlesitekit.gtagEvent = (name, data) => { var key = JSON.stringify( { name, data } ); if ( !! window._googlesitekit.throttledEvents[ key ] ) { return; } window._googlesitekit.throttledEvents[ key ] = true; setTimeout( () => { delete window._googlesitekit.throttledEvents[ key ]; }, 5 ); gtag( "event", name, { ...data, event_source: "site-kit" } ); } 
+/* ]]> */
+</script>
+
+<!-- 사이트 킷에서 추가한 구글 태그(gtag.js) 스니펫 종료 -->
+<script></script><link rel="https://api.w.org/" href="/" /><link rel="alternate" title="JSON" type="application/json" href="/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="/" />
+<meta name="generator" content="WordPress 6.7.2" />
+<link rel='shortlink' href='/' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="/" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="/" />
+<meta name="generator" content="Site Kit by Google 1.146.0" /><script type="text/javascript"> var root = document.getElementsByTagName( "html" )[0]; root.setAttribute( "class", "js" ); </script><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<meta name="generator" content="Powered by Slider Revolution 6.4.3 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="../wp-content/uploads/2025/03/favicon_kys-100x100.png" sizes="32x32" />
+<link rel="icon" href="/" sizes="192x192" />
+<link rel="apple-touch-icon" href="/" />
+<meta name="msapplication-TileImage" content="https://www.kimskinclinic.co.kr/wp-content/uploads/2025/03/favicon_kys.png" />
+<script type="text/javascript">function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {				 
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;	
+				try {								
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+					if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+						newh = Math.max(e.mh,window.RSIH);					
+					else{					
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,						
+							sl;					
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];									
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}				
+					if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
+					document.getElementById(e.c).height = newh+"px";
+					window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}					   
+			//});
+		  };</script>
+<script></script><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+<!-- 퀵메뉴 -->
+<div id="quickMenu" class="quick_menu">
+   <ul>
+    <li class="call01"><a href="tel:02-591-7789"><img src="/wp-content/uploads/2025/03/quick_img01.png" alt="일반진료 문의"></a></li>
+		<li class="call02"><a href="tel:02-535-0606"><img src="/wp-content/uploads/2025/03/quick_img02.png" alt="미용시술 문의"></a></li>
+		<li class="event"><a href="/notice-event/event/"><img src="/wp-content/uploads/2025/03/quick_img03.png" alt="이벤트"></a></li>
+    </ul>
+</div>
+
+<div id="quickMenuMo" class="quick_menu_mo">
+	<ul>
+	<li class="call01"><a href="tel:02-591-7789">일반진료 문의</a></li>
+	<li class="event"><a href="/notice-event/event/"><i class="fa-solid fa-star"></i> EVENT</a></li>
+	<li class="call02"><a href="tel:02-535-0606">미용시술 상담</a></li>
+	</ul>
+</div>
+
+
+</head><body class="page-template-default page page-id-2124 page-child parent-pageid-2065 material wpb-js-composer js-comp-ver-7.8.1 vc_responsive" data-footer-reveal="false" data-footer-reveal-shadow="none" data-header-format="centered-menu" data-body-border="off" data-boxed-style="" data-header-breakpoint="1000" data-dropdown-style="minimal" data-cae="easeOutCubic" data-cad="750" data-megamenu-width="contained" data-aie="none" data-ls="fancybox" data-apte="standard" data-hhun="1" data-fancy-form-rcs="default" data-form-style="default" data-form-submit="regular" data-is="minimal" data-button-style="default" data-user-account-button="false" data-flex-cols="true" data-col-gap="30px" data-header-inherit-rc="false" data-header-search="false" data-animated-anchors="true" data-ajax-transitions="false" data-full-width-header="true" data-slide-out-widget-area="true" data-slide-out-widget-area-style="slide-out-from-right-hover" data-user-set-ocm="1" data-loading-animation="none" data-bg-header="false" data-responsive="1" data-ext-responsive="true" data-ext-padding="75" data-header-resize="0" data-header-color="custom" data-transparent-header="false" data-cart="false" data-remove-m-parallax="1" data-remove-m-video-bgs="" data-m-animate="0" data-force-header-trans-color="light" data-smooth-scrolling="0" data-permanent-transparent="false" >
+	
+	<script type="text/javascript">
+	 (function(window, document) {
+
+		document.documentElement.classList.remove("no-js");
+
+		if(navigator.userAgent.match(/(Android|iPod|iPhone|iPad|BlackBerry|IEMobile|Opera Mini)/)) {
+			document.body.className += " using-mobile-browser mobile ";
+		}
+		if(navigator.userAgent.match(/Mac/) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2) {
+			document.body.className += " using-ios-device ";
+		}
+
+		if( !("ontouchstart" in window) ) {
+
+			var body = document.querySelector("body");
+			var winW = window.innerWidth;
+			var bodyW = body.clientWidth;
+
+			if (winW > bodyW + 4) {
+				body.setAttribute("style", "--scroll-bar-w: " + (winW - bodyW - 4) + "px");
+			} else {
+				body.setAttribute("style", "--scroll-bar-w: 0px");
+			}
+		}
+
+	 })(window, document);
+   </script><a href="#ajax-content-wrap" class="nectar-skip-to-content">Skip to main content</a><div class="ocm-effect-wrap"><div class="ocm-effect-wrap-inner">	
+	<div id="header-space"  data-header-mobile-fixed='false'></div> 
+	
+		<div id="header-outer" data-has-menu="true" data-has-buttons="yes" data-header-button_style="default" data-using-pr-menu="false" data-mobile-fixed="false" data-ptnm="false" data-lhe="text_reveal" data-user-set-bg="#ffffff" data-format="centered-menu" data-permanent-transparent="false" data-megamenu-rt="0" data-remove-fixed="0" data-header-resize="0" data-cart="false" data-transparency-option="0" data-box-shadow="none" data-shrink-num="26" data-using-secondary="0" data-using-logo="1" data-logo-height="30" data-m-logo-height="18" data-padding="28" data-full-width="true" data-condense="false" >
+		
+<div id="search-outer" class="nectar">
+	<div id="search">
+		<div class="container">
+			 <div id="search-box">
+				 <div class="inner-wrap">
+					 <div class="col span_12">
+						  <form role="search" action="/" method="GET">
+														 <input type="text" name="s" id="s" value="" aria-label="Search" placeholder="Search" />
+							 
+						<span>Hit enter to search or ESC to close</span>
+												</form>
+					</div><!--/span_12-->
+				</div><!--/inner-wrap-->
+			 </div><!--/search-box-->
+			 <div id="close"><a href="#"><span class="screen-reader-text">Close Search</span>
+				<span class="close-wrap"> <span class="close-line close-line1"></span> <span class="close-line close-line2"></span> </span>				 </a></div>
+		 </div><!--/container-->
+	</div><!--/search-->
+</div><!--/search-outer-->
+
+<header id="top">
+	<div class="container">
+		<div class="row">
+			<div class="col span_3">
+								<a id="logo" href="/" data-supplied-ml-starting-dark="false" data-supplied-ml-starting="false" data-supplied-ml="false" >
+					<img class="stnd skip-lazy default-logo dark-version" width="259" height="30" alt="김윤섭피부과의원, 이수역 사당동 피부과" src="../wp-content/uploads/2025/03/logo_header.png" srcset="https://www.kimskinclinic.co.kr/wp-content/uploads/2025/03/logo_header.png 1x, https://www.kimskinclinic.co.kr/wp-content/uploads/2025/03/logo_header_retina.png 2x" />				</a>
+							</div><!--/span_3-->
+
+			<div class="col span_9 col_last">
+									<div class="nectar-mobile-only mobile-header"><div class="inner"></div></div>
+													<div class="slide-out-widget-area-toggle mobile-icon slide-out-from-right-hover" data-custom-color="false" data-icon-animation="simple-transform">
+						<div> <a href="#slide-out-widget-area" role="button" aria-label="Navigation Menu" aria-expanded="false" class="closed">
+							<span class="screen-reader-text">Menu</span><span aria-hidden="true"> <i class="lines-button x2"> <i class="lines"></i> </i> </span>						</a></div>
+					</div>
+				
+									<nav aria-label="Main Menu">
+													<ul class="sf-menu">
+								<li id="menu-item-2172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children nectar-regular-menu-item menu-item-2172"><a href="/" aria-haspopup="true" aria-expanded="false"><span class="menu-title-text"><span class="nectar-text-reveal-button"><span class="nectar-text-reveal-button__text" data-text="병원소개">병원소개</span></span></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-2136" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-2136"><a href="/"><span class="menu-title-text">의료진 소개</span></a></li>
+	<li id="menu-item-2135" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-2135"><a href="/"><span class="menu-title-text">병원 둘러보기</span></a></li>
+	<li id="menu-item-2134" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-2134"><a href="/"><span class="menu-title-text">진료시간/오시는길</span></a></li>
+	<li id="menu-item-2137" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-2137"><a href="/"><span class="menu-title-text">비급여항목안내</span></a></li>
+</ul>
+</li>
+<li id="menu-item-2074" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-2074"><a href="/"><span class="menu-title-text"><span class="nectar-text-reveal-button"><span class="nectar-text-reveal-button__text" data-text="피부질환 진료">피부질환 진료</span></span></span></a></li>
+<li id="menu-item-2173" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2124 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children nectar-regular-menu-item menu-item-2173"><a href="/" aria-current="page" aria-haspopup="true" aria-expanded="false"><span class="menu-title-text"><span class="nectar-text-reveal-button"><span class="nectar-text-reveal-button__text" data-text="피부미용 시술/관리">피부미용 시술/관리</span></span></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-2142" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2124 current_page_item nectar-regular-menu-item menu-item-2142"><a href="/" aria-current="page"><span class="menu-title-text">색소 · 여드름 · 미백</span></a></li>
+	<li id="menu-item-2141" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-2141"><a href="/"><span class="menu-title-text">주름 · 탄력 리프팅</span></a></li>
+	<li id="menu-item-2140" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-2140"><a href="/"><span class="menu-title-text">보톡스 · 필러</span></a></li>
+	<li id="menu-item-2139" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-2139"><a href="/"><span class="menu-title-text">탈모 · 제모</span></a></li>
+	<li id="menu-item-2138" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-2138"><a href="/"><span class="menu-title-text">레이저 시술 비용</span></a></li>
+</ul>
+</li>
+<li id="menu-item-2234" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-2234"><a href="/"><span class="menu-title-text"><span class="nectar-text-reveal-button"><span class="nectar-text-reveal-button__text" data-text="공지/이벤트">공지/이벤트</span></span></span></a></li>
+							</ul>
+													<ul class="buttons sf-menu" data-user-set-ocm="1">
+
+								<li class="slide-out-widget-area-toggle" data-icon-animation="simple-transform" data-custom-color="false"><div> <a href="#slide-out-widget-area" aria-label="Navigation Menu" aria-expanded="false" role="button" class="closed"> <span class="screen-reader-text">Menu</span><span aria-hidden="true"> <i class="lines-button x2"> <i class="lines"></i> </i> </span> </a> </div></li>
+							</ul>
+						
+					</nav>
+
+					<div class="logo-spacing" data-using-image="true"><img class="hidden-logo" alt="김윤섭피부과의원, 이수역 사당동 피부과" width="259" height="30" src="../wp-content/uploads/2025/03/logo_header.png" /></div>
+				</div><!--/span_9-->
+
+				
+			</div><!--/row-->
+					</div><!--/container-->
+	</header>		
+	</div>
+		<div id="ajax-content-wrap">
+<div class="container-wrap">
+	<div class="container main-content" role="main">
+		<div class="row">
+			
+		<div id="fws_69ca05847a89e"  data-column-margin="default" data-midnight="light"  class="wpb_row vc_row-fluid vc_row top-level full-width-section parallax_section sub_top mobile-disable-bg-image-animation"  style="padding-top: 0px; padding-bottom: 0px; "><div class="row-bg-wrap" data-bg-animation="zoom-out" data-bg-animation-delay="" data-bg-overlay="false"><div class="inner-wrap row-bg-layer using-image" ><div class="row-bg viewport-desktop using-image" data-parallax-speed="medium_fast" style="background-image: url(/wp-content/uploads/2025/03/sub_top_bg_acne.jpg); background-position: center center; background-repeat: no-repeat; "></div></div><div class="row-bg-overlay row-bg-layer" style="background:linear-gradient(0deg, rgba(243,243,243,0.5) 10%, rgba(55,68,73,0.5) 90%);"></div></div><div class="row_col_wrap_12 col span_12 light left">
+	<div  class="vc_col-sm-12 wpb_column column_container vc_column_container col centered-text top_padding_desktop_100px top_padding_tablet_50px bottom_padding_desktop_120px bottom_padding_tablet_60px "  data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0" >
+		<div class="vc_column-inner" >
+			<div class="wpb_wrapper">
+				
+<div class="wpb_text_column wpb_content_element  ff_bookend fz16 lh140 ls3 op70" >
+	<div class="wpb_wrapper">
+		<p>Pigmentation &amp; Acne &amp; Whitening</p>
+	</div>
+</div>
+
+
+
+<div class="divider-wrap height_tablet_5px " data-alignment="default"><div style="height: 10px;" class="divider"></div></div>
+	<div class="wpb_raw_code wpb_raw_html wpb_content_element" >
+		<div class="wpb_wrapper">
+			<div class="gradient-line"></div>
+		</div>
+	</div>
+<div class="divider-wrap height_tablet_16px " data-alignment="default"><div style="height: 32px;" class="divider"></div></div>
+<div class="wpb_text_column wpb_content_element  ff_bookend fz54 lh140 fw400" >
+	<div class="wpb_wrapper">
+		<h1>색소 · 여드름 · 미백</h1>
+	</div>
+</div>
+
+
+
+<div class="divider-wrap height_tablet_16px " data-alignment="default"><div style="height: 32px;" class="divider"></div></div>
+<div class="wpb_text_column wpb_content_element  fz22 lh140 op80 fw300" >
+	<div class="wpb_wrapper">
+		<p>피부 고민에 맞춘 맞춤 시술로 건강한 피부로 가꾸어 드립니다.</p>
+	</div>
+</div>
+
+
+
+
+			</div> 
+		</div>
+	</div> 
+</div></div>
+		<div id="fws_69ca05847b47f"  data-column-margin="default" data-midnight="dark"  class="wpb_row vc_row-fluid vc_row sub_sec cosmetic lifting"  style="padding-top: 0px; padding-bottom: 0px; "><div class="row-bg-wrap" data-bg-animation="none" data-bg-animation-delay="" data-bg-overlay="false"><div class="inner-wrap row-bg-layer" ><div class="row-bg viewport-desktop"  style=""></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
+	<div  class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone "  data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0" >
+		<div class="vc_column-inner" >
+			<div class="wpb_wrapper">
+				<div class="divider-wrap height_tablet_80px " data-alignment="default"><div style="height: 160px;" class="divider"></div></div><div class="nectar-sticky-media-sections media-width-45pct media-height-80vh content-spacing-50vh content-position-right mobile-aspect-ratio-1-1"><div class="nectar-sticky-media-section__featured-media"><div class="nectar-sticky-media-section__media-wrap active"><div class="nectar-sticky-media-section__media" style="background-image:url(/wp-content/uploads/2025/03/paw_sec_01_left_img.png)" data-type="image"></div></div><div class="nectar-sticky-media-section__media-wrap"><div class="nectar-sticky-media-section__media"data-nectar-img-src="../wp-content/uploads/2025/03/paw_sec_02_left_img.png" data-type="image"></div></div><div class="nectar-sticky-media-section__media-wrap"><div class="nectar-sticky-media-section__media"data-nectar-img-src="../wp-content/uploads/2025/03/paw_sec_03_left_img.png" data-type="image"></div></div><div class="nectar-sticky-media-section__media-wrap"><div class="nectar-sticky-media-section__media"data-nectar-img-src="../wp-content/uploads/2025/03/paw_sec_04_left_img.png" data-type="image"></div></div><div class="nectar-sticky-media-section__media-wrap"><div class="nectar-sticky-media-section__media"data-nectar-img-src="../wp-content/uploads/2025/03/paw_sec_05_left_img.png" data-type="image"></div></div><div class="nectar-sticky-media-section__media-wrap"><div class="nectar-sticky-media-section__media"data-nectar-img-src="../wp-content/uploads/2025/03/paw_sec_06_left_img.png" data-type="image"></div></div></div><div class="nectar-sticky-media-section__content"><div class="nectar-sticky-media-section__content-section"><div class="nectar-sticky-media-content__media-wrap"><div class="nectar-sticky-media-section__media" style="background-image:url(/wp-content/uploads/2025/03/paw_sec_01_left_img.png)" data-type="image"></div></div><div class="divider-wrap height_tablet_0px " data-alignment="default"><div style="height: 160px;" class="divider"></div></div><div id="fws_69ca05847c522" data-midnight="" data-column-margin="default" class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle contents"  style=""><div class="row-bg-wrap"> <div class="row-bg" ></div> </div><div class="row_col_wrap_12_inner col span_12  left">
+	<div  class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column right_padding_desktop_120px right_padding_tablet_0px "   data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0" >
+		<div class="vc_column-inner" >
+		<div class="wpb_wrapper">
+			<div class="nectar-split-heading  fz48 lh180 fw400" data-align="default" data-m-align="inherit" data-text-effect="default" data-animation-type="line-reveal-by-space" data-animation-delay="0" data-animation-offset="" data-m-rm-animation="" data-stagger="" data-custom-font-size="false" ><h3 >점 · 검버섯 · 비립종 · 쥐젖 · 한관종</h3></div><div class="nectar-highlighted-text nectar-disable-mobile-animation " data-style="half_text" data-exp="default" data-using-custom-color="true" data-animation-delay="false" data-color="#e9f1f3" data-color-gradient="" style=""><p><em class="fz26 lh180">피부 속 색소 병변과 돌기, 미백까지 한번에 개선</em></p>
+</div><div class="divider-wrap height_tablet_10px " data-alignment="default"><div style="height: 20px;" class="divider"></div></div>
+<div class="wpb_text_column wpb_content_element  fz18 lh180 fw300" >
+	<div class="wpb_wrapper">
+		<p>점, 비립종, 쥐젖, 한관종 등 다양한 색소 병변과 돌기성 병변은 어븀야그 레이저로 정밀하게 제거합니다. 병변의 깊이나 크기에 따라 적절한 에너지를 조절해 피부 손상을 최소화하며, 빠른 회복과 함께 깔끔한 피부 결을 완성할 수 있도록 돕습니다.</p>
+	</div>
+</div>
+
+
+
+<div class="divider-wrap height_tablet_20px " data-alignment="default"><div style="height: 40px;" class="divider"></div></div><div class="nectar-fancy-ul" data-list-icon="none" data-animation="true" data-animation-delay="0" data-color="accent-color" data-spacing="15px" data-alignment="left"> 
+<ul class="fz22 lh150">
+<li>어븀야그 레이저로 정밀 제거</li>
+<li>피부 손상 최소화, 빠른 회복</li>
+<li>돌기성 병변을 깔끔하게 정리</li>
+<li>매끄러운 피부 결 완성</li>
+</ul>
+ </div>
+		</div> 
+	</div>
+	</div> 
+</div></div></div><div class="nectar-sticky-media-section__content-section"><div class="nectar-sticky-media-content__media-wrap"><div class="nectar-sticky-media-section__media"data-nectar-img-src="../wp-content/uploads/2025/03/paw_sec_02_left_img.png" data-type="image"></div></div><div id="fws_69ca05847d056" data-midnight="" data-column-margin="default" class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle"  style=""><div class="row-bg-wrap"> <div class="row-bg" ></div> </div><div class="row_col_wrap_12_inner col span_12  left">
+	<div  class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column right_padding_desktop_120px right_padding_tablet_0px "   data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0" >
+		<div class="vc_column-inner" >
+		<div class="wpb_wrapper">
+			<div class="nectar-split-heading  fz48 lh180 fw400" data-align="default" data-m-align="inherit" data-text-effect="default" data-animation-type="line-reveal-by-space" data-animation-delay="0" data-animation-offset="" data-m-rm-animation="" data-stagger="" data-custom-font-size="false" ><h3 >기미 · 주근깨 · 잡티</h3></div><div class="nectar-highlighted-text nectar-disable-mobile-animation " data-style="half_text" data-exp="default" data-using-custom-color="true" data-animation-delay="false" data-color="#e9f1f3" data-color-gradient="" style=""><p><em class="fz26 lh180">맑고 균일한 피부 톤을 위한 색소 치료</em></p>
+</div><div class="divider-wrap height_tablet_10px " data-alignment="default"><div style="height: 20px;" class="divider"></div></div>
+<div class="wpb_text_column wpb_content_element  fz18 lh180 fw300" >
+	<div class="wpb_wrapper">
+		<p>기미, 주근깨, 잡티는 멜라닌 색소가 과도하게 침착되어 피부 톤을 어둡게 만드는 대표적인 색소 질환입니다. GV 레이저, 피코 토닉, 더블 토닉, 루메니스원 IPL을 활용해 색소를 선택적으로 제거하고, 피부 전체의 미백 효과를 극대화하여 보다 맑고 균일한 피부 톤을 완성할 수 있도록 돕습니다.</p>
+	</div>
+</div>
+
+
+
+<div class="divider-wrap height_tablet_20px " data-alignment="default"><div style="height: 40px;" class="divider"></div></div><div class="nectar-fancy-ul" data-list-icon="none" data-animation="true" data-animation-delay="0" data-color="accent-color" data-spacing="15px" data-alignment="left"> 
+<ul class="fz22 lh150">
+<li>색소 침착을 개선하는 맞춤형 복합 치료</li>
+<li> GV 레이저, 피코 토닉, 더블 토닉, IPL을 활용한 치료</li>
+<li>색소를 선택적으로 제거해 피부 부담 최소화</li>
+<li>맑고 균일한 피부 톤 개선 및 피부결 정돈</li>
+</ul>
+ </div>
+		</div> 
+	</div>
+	</div> 
+</div></div></div><div class="nectar-sticky-media-section__content-section"><div class="nectar-sticky-media-content__media-wrap"><div class="nectar-sticky-media-section__media"data-nectar-img-src="../wp-content/uploads/2025/03/paw_sec_03_left_img.png" data-type="image"></div></div><div id="fws_69ca05847da04" data-midnight="" data-column-margin="default" class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle"  style=""><div class="row-bg-wrap"> <div class="row-bg" ></div> </div><div class="row_col_wrap_12_inner col span_12  left">
+	<div  class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column right_padding_desktop_120px right_padding_tablet_0px "   data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0" >
+		<div class="vc_column-inner" >
+		<div class="wpb_wrapper">
+			<div class="nectar-split-heading  fz48 lh180 fw400 ls_1" data-align="default" data-m-align="inherit" data-text-effect="default" data-animation-type="line-reveal-by-space" data-animation-delay="0" data-animation-offset="" data-m-rm-animation="" data-stagger="" data-custom-font-size="false" ><h3 >오타반점 · 문신제거</h3></div><div class="nectar-highlighted-text nectar-disable-mobile-animation " data-style="half_text" data-exp="default" data-using-custom-color="true" data-animation-delay="false" data-color="#e9f1f3" data-color-gradient="" style=""><p><em class="fz26 lh180">깊이 자리한 색소까지 깨끗하게 제거</em></p>
+</div><div class="divider-wrap height_tablet_10px " data-alignment="default"><div style="height: 20px;" class="divider"></div></div>
+<div class="wpb_text_column wpb_content_element  fz18 lh180 fw300" >
+	<div class="wpb_wrapper">
+		<p>오타반점과 문신은 피부 깊숙이 자리한 색소로, 일반적인 치료로는 완전히 제거하기 어렵습니다. <br class="none_999" />피코 레이저를 활용해 미세한 색소 입자를 빠르게 분해하고, 주변 피부 조직 손상 없이 효과적으로 치료하여 깨끗한 피부를 되찾을 수 있도록 돕습니다.</p>
+	</div>
+</div>
+
+
+
+<div class="divider-wrap height_tablet_20px " data-alignment="default"><div style="height: 40px;" class="divider"></div></div><div class="nectar-fancy-ul" data-list-icon="none" data-animation="true" data-animation-delay="0" data-color="accent-color" data-spacing="15px" data-alignment="left"> 
+<ul class="fz22 lh150">
+<li>짙고 깊은 색소까지 제거 가능한 피코 레이저 시술</li>
+<li>문신 색소를 세밀하게 분해하여 피부 부담 최소화</li>
+<li>오타반점 등 난치성 색소 질환 개선</li>
+<li>빠른 회복과 적은 통증으로 일상 복귀 용이</li>
+</ul>
+ </div>
+		</div> 
+	</div>
+	</div> 
+</div></div></div><div class="nectar-sticky-media-section__content-section"><div class="nectar-sticky-media-content__media-wrap"><div class="nectar-sticky-media-section__media"data-nectar-img-src="../wp-content/uploads/2025/03/paw_sec_04_left_img.png" data-type="image"></div></div><div id="fws_69ca05847e36e" data-midnight="" data-column-margin="default" class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle"  style=""><div class="row-bg-wrap"> <div class="row-bg" ></div> </div><div class="row_col_wrap_12_inner col span_12  left">
+	<div  class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column right_padding_desktop_120px right_padding_tablet_0px "   data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0" >
+		<div class="vc_column-inner" >
+		<div class="wpb_wrapper">
+			<div class="nectar-split-heading  fz48 lh180 fw400 ls_1" data-align="default" data-m-align="inherit" data-text-effect="default" data-animation-type="line-reveal-by-space" data-animation-delay="0" data-animation-offset="" data-m-rm-animation="" data-stagger="" data-custom-font-size="false" ><h3 >안면홍조 · 혈관종</h3></div><div class="nectar-highlighted-text nectar-disable-mobile-animation " data-style="half_text" data-exp="default" data-using-custom-color="true" data-animation-delay="false" data-color="#e9f1f3" data-color-gradient="" style=""><p><em class="fz26 lh180">안색을 맑고 균일하게 개선</em></p>
+</div><div class="divider-wrap height_tablet_10px " data-alignment="default"><div style="height: 20px;" class="divider"></div></div>
+<div class="wpb_text_column wpb_content_element  fz18 lh180 fw300" >
+	<div class="wpb_wrapper">
+		<p>안면홍조와 혈관종은 피부 표면의 혈관 확장으로 인해 붉은 기가 지속되는 증상입니다. <br class="none_999" />엑셀V 레이저와 GV 레이저를 이용해 확장된 혈관을 정밀하게 치료하고, 다이(Dye) 레이저를 활용해 혈관종을 효과적으로 개선합니다. 시술 후 피부 톤이 균일해지고 붉은 기가 완화되어 맑고 깨끗한 피부로 가꿔줍니다.</p>
+	</div>
+</div>
+
+
+
+<div class="divider-wrap height_tablet_20px " data-alignment="default"><div style="height: 40px;" class="divider"></div></div><div class="nectar-fancy-ul" data-list-icon="none" data-animation="true" data-animation-delay="0" data-color="accent-color" data-spacing="15px" data-alignment="left"> 
+<ul class="fz22 lh150">
+<li>확장된 혈관을 정밀 타겟하는 엑셀V·GV 레이저</li>
+<li>혈관종 치료에 특화된 다이(Dye) 레이저 시술</li>
+<li>붉은 기 완화와 함께 피부 톤 개선</li>
+<li>다운타임이 짧아 빠른 일상 복귀 가능</li>
+</ul>
+ </div>
+		</div> 
+	</div>
+	</div> 
+</div></div></div><div class="nectar-sticky-media-section__content-section"><div class="nectar-sticky-media-content__media-wrap"><div class="nectar-sticky-media-section__media"data-nectar-img-src="../wp-content/uploads/2025/03/paw_sec_05_left_img.png" data-type="image"></div></div><div id="fws_69ca05847eca1" data-midnight="" data-column-margin="default" class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle"  style=""><div class="row-bg-wrap"> <div class="row-bg" ></div> </div><div class="row_col_wrap_12_inner col span_12  left">
+	<div  class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column right_padding_desktop_120px right_padding_tablet_0px "   data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0" >
+		<div class="vc_column-inner" >
+		<div class="wpb_wrapper">
+			<div class="nectar-split-heading  fz48 lh180 fw400 ls_1" data-align="default" data-m-align="inherit" data-text-effect="default" data-animation-type="line-reveal-by-space" data-animation-delay="0" data-animation-offset="" data-m-rm-animation="" data-stagger="" data-custom-font-size="false" ><h3 >여드름 · 여드름흉터</h3></div><div class="nectar-highlighted-text nectar-disable-mobile-animation " data-style="half_text" data-exp="default" data-using-custom-color="true" data-animation-delay="false" data-color="#e9f1f3" data-color-gradient="" style=""><p><em class="fz26 lh180">깨끗한 피부로 되돌리는 맞춤 여드름 치료</em></p>
+</div><div class="divider-wrap height_tablet_10px " data-alignment="default"><div style="height: 20px;" class="divider"></div></div>
+<div class="wpb_text_column wpb_content_element  fz18 lh180 fw300" >
+	<div class="wpb_wrapper">
+		<p>여드름은 염증과 피지 분비 조절이 핵심입니다. 엑셀V 레이저와 PDT 레이저 패키지를 활용해 염증을 빠르게 가라앉히고, 재발을 예방할 수 있도록 돕습니다. 여드름 흉터는 피코 프락셀과 브이로 RM 모드로 피부 재생을 촉진해, 매끄럽고 균일한 피부결을 되찾을 수 있도록 치료합니다.</p>
+	</div>
+</div>
+
+
+
+<div class="divider-wrap height_tablet_20px " data-alignment="default"><div style="height: 40px;" class="divider"></div></div><div class="nectar-fancy-ul" data-list-icon="none" data-animation="true" data-animation-delay="0" data-color="accent-color" data-spacing="15px" data-alignment="left"> 
+<ul class="fz22 lh150">
+<li>엑셀V·PDT 레이저로 염증 완화 및 피지 조절</li>
+<li>피코 프락셀·브이로 RM 모드로 흉터 개선 및 피부 재생</li>
+<li>염증 완화와 피부결 정돈으로 맑은 피부 관리</li>
+<li>맞춤 시술로 여드름과 흉터를 동시에 개선</li>
+</ul>
+ </div>
+		</div> 
+	</div>
+	</div> 
+</div></div></div><div class="nectar-sticky-media-section__content-section"><div class="nectar-sticky-media-content__media-wrap"><div class="nectar-sticky-media-section__media"data-nectar-img-src="../wp-content/uploads/2025/03/paw_sec_06_left_img.png" data-type="image"></div></div><div id="fws_69ca05847f5b1" data-midnight="" data-column-margin="default" class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle"  style=""><div class="row-bg-wrap"> <div class="row-bg" ></div> </div><div class="row_col_wrap_12_inner col span_12  left">
+	<div  class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column right_padding_desktop_120px right_padding_tablet_0px "   data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0" >
+		<div class="vc_column-inner" >
+		<div class="wpb_wrapper">
+			<div class="nectar-split-heading  fz48 lh180 fw400 ls_1" data-align="default" data-m-align="inherit" data-text-effect="default" data-animation-type="line-reveal-by-space" data-animation-delay="0" data-animation-offset="" data-m-rm-animation="" data-stagger="" data-custom-font-size="false" ><h3 >피부톤 · 미백 · 피부건강</h3></div><div class="nectar-highlighted-text nectar-disable-mobile-animation " data-style="half_text" data-exp="default" data-using-custom-color="true" data-animation-delay="false" data-color="#e9f1f3" data-color-gradient="" style=""><p><em class="fz26 lh180">맑고 균일한 피부를 위한 맞춤 미백 관리</em></p>
+</div><div class="divider-wrap height_tablet_10px " data-alignment="default"><div style="height: 20px;" class="divider"></div></div>
+<div class="wpb_text_column wpb_content_element  fz18 lh180 fw300" >
+	<div class="wpb_wrapper">
+		<p>피부톤 개선을 위해 듀얼 토닝과 피코 토닝 레이저를 활용해 색소를 정밀하게 제거하고, 피부 재생 레이저로 회복을 돕습니다. 비타민C 이온토 관리, 플라소닉 플라즈마, 레쥬덤 관리를 병행해 피부 속까지 환하고 건강한 피부를 완성합니다.</p>
+	</div>
+</div>
+
+
+
+<div class="divider-wrap height_tablet_20px " data-alignment="default"><div style="height: 40px;" class="divider"></div></div><div class="nectar-fancy-ul" data-list-icon="none" data-animation="true" data-animation-delay="0" data-color="accent-color" data-spacing="15px" data-alignment="left"> 
+<ul class="fz22 lh150">
+<li>듀얼 토닝·피코 토닝으로 색소 개선 및 피부톤 균일화</li>
+<li>피부 재생 레이저로 피부 회복과 건강한 피부 바탕 형성</li>
+<li>비타민C 이온토 관리로 미백 효과 극대화</li>
+<li>플라소닉·레쥬덤 관리로 피부 속 보습과 장벽 강화</li>
+</ul>
+ </div>
+		</div> 
+	</div>
+	</div> 
+</div></div><div class="divider-wrap height_tablet_0px " data-alignment="default"><div style="height: 160px;" class="divider"></div></div></div></div></div>
+			</div> 
+		</div>
+	</div> 
+</div></div>
+		<div id="fws_69ca05848007d"  data-column-margin="default" data-midnight="dark"  class="wpb_row vc_row-fluid vc_row"  style="padding-top: 0px; padding-bottom: 0px; "><div class="row-bg-wrap" data-bg-animation="none" data-bg-animation-delay="" data-bg-overlay="false"><div class="inner-wrap row-bg-layer" ><div class="row-bg viewport-desktop"  style=""></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
+	<div  class="vc_col-sm-12 wpb_column column_container vc_column_container col top_padding_desktop_100px top_padding_tablet_50px bottom_padding_desktop_100px bottom_padding_tablet_50px "  data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0" >
+		<div class="vc_column-inner" >
+			<div class="wpb_wrapper">
+				<div class="nectar-scrolling-text font_size_10rem custom_color " data-style="default" data-s-dir="ltr" data-spacing="true" data-outline-thickness="thin" data-s-speed="slower" data-overflow="visible" ><div class="nectar-scrolling-text-inner" data-persist-animation data-nectar-animate-settings="{&quot;animations&quot;:{&quot;desktop&quot;:{&quot;translateX&quot;:{&quot;start&quot;:&quot;0&quot;,&quot;end&quot;:&quot;-25%&quot;},&quot;translateY&quot;:{&quot;start&quot;:&quot;0&quot;,&quot;end&quot;:&quot;0&quot;},&quot;scale&quot;:{&quot;start&quot;:&quot;1&quot;,&quot;end&quot;:&quot;1&quot;},&quot;opacity&quot;:{&quot;start&quot;:&quot;1&quot;,&quot;end&quot;:&quot;1&quot;},&quot;rotate&quot;:{&quot;start&quot;:&quot;0&quot;,&quot;end&quot;:&quot;0&quot;}},&quot;tablet&quot;:{&quot;translateX&quot;:{&quot;start&quot;:&quot;0&quot;,&quot;end&quot;:&quot;-25%&quot;},&quot;translateY&quot;:{&quot;start&quot;:&quot;0&quot;,&quot;end&quot;:&quot;0&quot;},&quot;scale&quot;:{&quot;start&quot;:&quot;1&quot;,&quot;end&quot;:&quot;1&quot;},&quot;opacity&quot;:{&quot;start&quot;:&quot;1&quot;,&quot;end&quot;:&quot;1&quot;},&quot;rotate&quot;:{&quot;start&quot;:&quot;0&quot;,&quot;end&quot;:&quot;0&quot;}},&quot;phone&quot;:{&quot;translateX&quot;:{&quot;start&quot;:&quot;0&quot;,&quot;end&quot;:&quot;-25%&quot;},&quot;translateY&quot;:{&quot;start&quot;:&quot;0&quot;,&quot;end&quot;:&quot;0&quot;},&quot;scale&quot;:{&quot;start&quot;:&quot;1&quot;,&quot;end&quot;:&quot;1&quot;},&quot;opacity&quot;:{&quot;start&quot;:&quot;1&quot;,&quot;end&quot;:&quot;1&quot;},&quot;rotate&quot;:{&quot;start&quot;:&quot;0&quot;,&quot;end&quot;:&quot;0&quot;}}},&quot;offsets&quot;:{&quot;start&quot;:&quot;0&quot;,&quot;end&quot;:&quot;100&quot;},&quot;config&quot;:[]}" data-advanced-animation="true" style="color: rgba(113,100,85,0.05);"><div class="nectar-scrolling-text-inner__text-chunk">
+<p class="ff_metal lh140">Dr.kim’s Skin Clinic</p>
+</div><div class="nectar-scrolling-text-inner__text-chunk">
+<p class="ff_metal lh140">Dr.kim’s Skin Clinic</p>
+</div><div class="nectar-scrolling-text-inner__text-chunk">
+<p class="ff_metal lh140">Dr.kim’s Skin Clinic</p>
+</div><div class="nectar-scrolling-text-inner__text-chunk">
+<p class="ff_metal lh140">Dr.kim’s Skin Clinic</p>
+</div><div class="nectar-scrolling-text-inner__text-chunk">
+<p class="ff_metal lh140">Dr.kim’s Skin Clinic</p>
+</div></div></div>
+			</div> 
+		</div>
+	</div> 
+</div></div>
+		</div>
+	</div>
+	<div class="nectar-global-section before-footer"><div class="container normal-container row"><div class="nectar-sticky-row-wrap nectar-sticky-row-wrap--top" style="z-index: 1;">
+		<div id="event_banner"  data-column-margin="default" data-midnight="light"  class="wpb_row vc_row-fluid vc_row full-width-content vc_row-o-equal-height vc_row-flex vc_row-o-content-top parallax_section zindex-set"  style="padding-top: 0px; padding-bottom: 0px;  z-index: 1;"><div class="row-bg-wrap" data-bg-animation="none" data-bg-animation-delay="" data-bg-overlay="false"><div class="inner-wrap row-bg-layer using-image" ><div class="row-bg viewport-desktop using-image" data-parallax-speed="medium" style="background-image: url(/wp-content/uploads/2025/03/event_banner_bg.jpg); background-position: left top; background-repeat: no-repeat; "></div></div></div><div class="row_col_wrap_12 col span_12 light left">
+	<div  class="vc_col-sm-12 wpb_column column_container vc_column_container col padding-2-percent inherit_tablet inherit_phone "  data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0" >
+		<div class="vc_column-inner" >
+			<div class="wpb_wrapper">
+				<div id="fws_69ca058481436" data-midnight="" data-column-margin="default" class="wpb_row vc_row-fluid vc_row inner_row"  style=""><div class="row-bg-wrap"> <div class="row-bg" ></div> </div><div class="row_col_wrap_12_inner col span_12  left">
+	<div style="" class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column centered-text top_padding_desktop_10vh top_padding_phone_8vh bottom_padding_desktop_10vh bottom_padding_phone_8vh "  data-using-bg="true" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0" >
+		<div class="vc_column-inner" ><a class="column-link" target="_self" href="/notice-event/event/"></a><div class="column-image-bg-wrap column-bg-layer viewport-desktop" data-bg-pos="center center" data-bg-animation="zoom-out" data-bg-overlay="false"><div class="inner-wrap"><div class="column-image-bg" style=" background-image: url('../wp-content/uploads/2025/03/event_banner_inner_bg.jpg'); "></div></div></div>
+		<div class="wpb_wrapper">
+			
+<div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_fadeIn fadeIn ff_bookend fz54 fw400" >
+	<div class="wpb_wrapper">
+		<h2>이벤트</h2>
+	</div>
+</div>
+
+
+
+<div class="divider-wrap height_tablet_8px " data-alignment="default"><div style="height: 16px;" class="divider"></div></div>
+<div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_fadeIn fadeIn fz24 fw300" >
+	<div class="wpb_wrapper">
+		<p>다양한 피부 레이저 시술 및 관리 서비스 이벤트를 만나보세요.</p>
+	</div>
+</div>
+
+
+
+<div class="divider-wrap height_tablet_35px " data-alignment="default"><div style="height: 70px;" class="divider"></div></div><div class="nectar-cta fz16 lh180 ls0 border_color_rgba(255,255,255,0.2) border_thickness_1px border_radius_5px alignment_tablet_default alignment_phone_default display_tablet_inherit display_phone_inherit font_size_desktop_16px " data-color="default" data-using-bg="false" data-style="text-reveal" data-display="block" data-alignment="center" data-text-color="std" ><p><span class="link_wrap" style="padding-top: 0.8rem; padding-right: 1.4rem; padding-bottom: 0.8rem; padding-left: 1.4rem;"><a  class="link_text" role="button" href="/notice-event/event/"><span class="text nectar-text-reveal-button__text"data-text="VIEW MORE">VIEW MORE</span></a></span></p></div>
+		</div> 
+	</div>
+	</div> 
+</div></div>
+			</div> 
+		</div>
+	</div> 
+</div></div></div>
+		<div id="footer_wrap"  data-column-margin="default" data-midnight="dark" data-nectar-animated-gradient-settings="{&quot;color_1&quot;:&quot;#f1eae0&quot;,&quot;color_2&quot;:&quot;#e4dacc&quot;,&quot;speed&quot;:&quot;850&quot;,&quot;blending_mode&quot;:&quot;organic&quot;}"  class="wpb_row vc_row-fluid vc_row full-width-section c_brown zindex-set"  style="padding-top: 0px; padding-bottom: 0px;  z-index: 100;"><div class="row-bg-wrap has-animated-gradient" data-bg-animation="none" data-bg-animation-delay="" data-bg-overlay="false"><div class="inner-wrap row-bg-layer" ><div class="row-bg viewport-desktop using-bg-color"  style="background-color: #f2eee8; "></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
+	<div  class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone "  data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0" >
+		<div class="vc_column-inner" >
+			<div class="wpb_wrapper">
+				<div class="divider-wrap height_tablet_70px " data-alignment="default"><div style="height: 140px;" class="divider"></div></div><div id="fws_69ca058482720" data-midnight="" data-column-margin="default" class="wpb_row vc_row-fluid vc_row inner_row top_wrap"  style=""><div class="row-bg-wrap"> <div class="row-bg" ></div> </div><div class="row_col_wrap_12_inner col span_12  left">
+	<div  class="vc_col-sm-6 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "   data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0" >
+		<div class="vc_column-inner" >
+		<div class="wpb_wrapper">
+			
+<div class="wpb_text_column wpb_content_element  ff_bookend fz62 lh140" >
+	<div class="wpb_wrapper">
+		<p>김윤섭 피부과의원</p>
+	</div>
+</div>
+
+
+
+<div class="divider-wrap height_tablet_5px " data-alignment="default"><div style="height: 10px;" class="divider"></div></div>
+<div class="wpb_text_column wpb_content_element  ff_metal fz34 lh140" >
+	<div class="wpb_wrapper">
+		<p>Dr.Kim’s Skin Clinic</p>
+	</div>
+</div>
+
+
+
+
+		</div> 
+	</div>
+	</div> 
+
+	<div  class="vc_col-sm-6 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "   data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0" >
+		<div class="vc_column-inner" >
+		<div class="wpb_wrapper">
+			
+<div class="wpb_text_column wpb_content_element  fz28 lh160" >
+	<div class="wpb_wrapper">
+		<p>진료시간</p>
+	</div>
+</div>
+
+
+
+<div class="divider-wrap height_tablet_5px " data-alignment="default"><div style="height: 10px;" class="divider"></div></div>
+	<div class="wpb_raw_code wpb_raw_html wpb_content_element time_wrap fz22 lh160" >
+		<div class="wpb_wrapper">
+			<dl class="time_left">
+    <div class="time_item">
+      <dt>월화수금</dt>
+      <dd>AM 09:30 ~ PM 05:00</dd>
+    </div>
+    <div class="time_item">
+      <dt class="word_3">토요일</dt>
+      <dd>AM 09:30 ~ PM 01:00</dd>
+    </div>
+  </dl>
+  <dl class="time_right">
+    <div class="time_item">
+      <dt>점심시간</dt>
+      <dd>PM 01:00 ~ PM 02:00</dd>
+    </div>
+    <div class="time_item">
+      <dt>정기휴무</dt>
+      <dd>매주 목, 일요일</dd>
+    </div>
+  </dl>
+
+		</div>
+	</div>
+
+		</div> 
+	</div>
+	</div> 
+</div></div><div class="divider-wrap height_tablet_25px " data-alignment="default"><div style="height: 50px;" class="divider"></div></div><div id="fws_69ca05848316d" data-midnight="" data-column-margin="default" class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-middle middle_wrap"  style=""><div class="row-bg-wrap"> <div class="row-bg" ></div> </div><div class="row_col_wrap_12_inner col span_12  left">
+	<div  class="vc_col-sm-6 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "   data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0" >
+		<div class="vc_column-inner" >
+		<div class="wpb_wrapper">
+			
+	<div class="wpb_raw_code wpb_raw_html wpb_content_element" >
+		<div class="wpb_wrapper">
+			<div id="map" style="width:100%;height:330px; margin-bottom:0; z-index: 1;"></div>
+
+<script>
+var position = new naver.maps.LatLng(37.4882667, 126.9819158);
+
+var map = new naver.maps.Map('map', {
+    center: position,
+    zoom: 16
+});
+
+var marker = new naver.maps.Marker({
+    position: position,
+    map: map,
+    icon: {
+        url: '/wp-content/uploads/2025/03/map-pin.png',
+        size: new naver.maps.Size(39, 55),
+        origin: new naver.maps.Point(0, 0),
+        anchor: new naver.maps.Point(20, 55) 
+    }
+});
+</script>
+
+		</div>
+	</div>
+
+		</div> 
+	</div>
+	</div> 
+
+	<div style="" class="vc_col-sm-3 wpb_column column_container vc_column_container col child_column centered-text padding-3-percent padding-4-percent_tablet inherit_phone "  data-using-bg="true" data-padding-pos="all" data-has-bg-color="true" data-bg-color="rgba(255,255,255,0.8)" data-bg-opacity="1" data-animation="" data-delay="0" >
+		<div class="vc_column-inner" ><div class="column-bg-overlay-wrap column-bg-layer" data-bg-animation="none"><div class="column-bg-overlay" style="opacity: 1; background-color: rgba(255,255,255,0.8);"></div></div>
+		<div class="wpb_wrapper">
+			
+<div class="wpb_text_column wpb_content_element  ff_bookend fz34 lh160" >
+	<div class="wpb_wrapper">
+		<p>오시는 길</p>
+	</div>
+</div>
+
+
+
+<div class="divider-wrap height_tablet_12px " data-alignment="default"><div style="height: 24px;" class="divider"></div></div>
+<div class="wpb_text_column wpb_content_element  fz24 lh160" >
+	<div class="wpb_wrapper">
+		<p>서울특별시 동작구 동작대로 <br class="none_1440" />129 2층 김윤섭피부과의원</p>
+	</div>
+</div>
+
+
+
+<div class="divider-wrap height_tablet_6px " data-alignment="default"><div style="height: 12px;" class="divider"></div></div>
+<div class="wpb_text_column wpb_content_element  fz18 lh160 fw500 op60" >
+	<div class="wpb_wrapper">
+		<p>4호선 총신대입구역, 7호선 이수역 <br class="none_1280" />14번 출구 바로 앞</p>
+	</div>
+</div>
+
+
+
+
+		</div> 
+	</div>
+	</div> 
+
+	<div style="" class="vc_col-sm-3 wpb_column column_container vc_column_container col child_column centered-text padding-3-percent padding-4-percent_tablet inherit_phone "  data-using-bg="true" data-padding-pos="all" data-has-bg-color="true" data-bg-color="rgba(255,255,255,0.8)" data-bg-opacity="1" data-animation="" data-delay="0" >
+		<div class="vc_column-inner" ><div class="column-bg-overlay-wrap column-bg-layer" data-bg-animation="none"><div class="column-bg-overlay" style="opacity: 1; background-color: rgba(255,255,255,0.8);"></div></div>
+		<div class="wpb_wrapper">
+			
+<div class="wpb_text_column wpb_content_element  ff_bookend fz34 lh160" >
+	<div class="wpb_wrapper">
+		<p>전화문의</p>
+	</div>
+</div>
+
+
+
+<div class="divider-wrap height_tablet_12px " data-alignment="default"><div style="height: 24px;" class="divider"></div></div>
+<div class="wpb_text_column wpb_content_element  fz18 lh160 fw500 op60" >
+	<div class="wpb_wrapper">
+		<p>일반진료</p>
+	</div>
+</div>
+
+
+
+
+<div class="wpb_text_column wpb_content_element  ff_bookend fz32 lh140 ls0 fw700" >
+	<div class="wpb_wrapper">
+		<p>02.591.7789</p>
+	</div>
+</div>
+
+
+
+<div class="divider-wrap height_tablet_9px " data-alignment="default"><div style="height: 18px;" class="divider"></div></div>
+<div class="wpb_text_column wpb_content_element  fz18 lh160 fw500 op60" >
+	<div class="wpb_wrapper">
+		<p>시술관리</p>
+	</div>
+</div>
+
+
+
+
+<div class="wpb_text_column wpb_content_element  ff_bookend fz32 lh140 ls0 fw700" >
+	<div class="wpb_wrapper">
+		<p>02.535.0606</p>
+	</div>
+</div>
+
+
+
+
+		</div> 
+	</div>
+	</div> 
+</div></div><div class="divider-wrap height_tablet_40px " data-alignment="default"><div style="margin-top: 60px; height: 1px; margin-bottom: 60px;" data-width="100%" data-animate="" data-animation-delay="" data-color="white" class="divider-border"></div></div><div id="fws_69ca05848419d" data-midnight="" data-column-margin="default" class="wpb_row vc_row-fluid vc_row inner_row bottom_wrap reverse_columns_column_tablet"  style=""><div class="row-bg-wrap"> <div class="row-bg" ></div> </div><div class="row_col_wrap_12_inner col span_12  left">
+	<div  class="vc_col-sm-9 l_box wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "   data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0" >
+		<div class="vc_column-inner" >
+		<div class="wpb_wrapper">
+			
+	<div class="wpb_raw_code wpb_raw_html wpb_content_element fz16 lh140" >
+		<div class="wpb_wrapper">
+			<dl class="footer_info">
+  <div class="info_item">
+    <dt>상호</dt>
+    <dd>김윤섭피부과의원</dd>
+  </div>
+  <div class="info_item">
+    <dt>대표</dt>
+    <dd>김윤섭</dd>
+  </div>
+  <div class="info_item">
+    <dt>주소</dt>
+    <dd>서울 동작구 동작대로 129 2층</dd>
+  </div>
+  <div class="info_item">
+    <dt>사업자등록번호</dt>
+    <dd>108-20-80591</dd>
+  </div>
+  <div class="info_item">
+    <dt>전화번호</dt>
+    <dd>02-591-7789</dd>
+  </div>
+</dl>
+		</div>
+	</div>
+<div class="divider-wrap height_tablet_6px " data-alignment="default"><div style="height: 12px;" class="divider"></div></div>
+<div class="wpb_text_column wpb_content_element  fz14 lh140 op60 copyright" >
+	<div class="wpb_wrapper">
+		<p>COPYRIGHTⓒ 2025 김윤섭피부과의원. ALL RIGHTS RESERVED. <br class="block_999" /><a class="op60 c_light_brown ls0" href="http://www.crossdesign.co.kr/" target="_blank" rel="noopener">Design by crossdesign</a></p>
+	</div>
+</div>
+
+
+
+
+		</div> 
+	</div>
+	</div> 
+
+	<div  class="vc_col-sm-3 r_box wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone "   data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0" >
+		<div class="vc_column-inner" >
+		<div class="wpb_wrapper">
+			
+<div class="wpb_text_column wpb_content_element  btn_wrap fz16 fw500 lh140 op70" >
+	<div class="wpb_wrapper">
+		<ul>
+<li><a href="/about/doctors/">병원소개</a></li>
+<li><a href="/notice-event/notice/">공지/이벤트</a></li>
+<li><a href="/non-pay-bill/">비급여항목안내</a></li>
+</ul>
+	</div>
+</div>
+
+
+
+
+		</div> 
+	</div>
+	</div> 
+</div></div><div class="divider-wrap height_tablet_30px " data-alignment="default"><div style="height: 60px;" class="divider"></div></div>
+			</div> 
+		</div>
+	</div> 
+</div></div>
+</div></div></div>
+
+<div id="footer-outer" data-midnight="light" data-cols="4" data-custom-color="false" data-disable-copyright="true" data-matching-section-color="true" data-copyright-line="false" data-using-bg-img="false" data-bg-img-overlay="0.8" data-full-width="false" data-using-widget-area="false" data-link-hover="default">
+	
+		
+</div><!--/footer-outer-->
+
+
+	<div id="slide-out-widget-area-bg" class="slide-out-from-right-hover light">
+				</div>
+
+		<div id="slide-out-widget-area" class="slide-out-from-right-hover" data-dropdown-func="separate-dropdown-parent-link" data-back-txt="Back">
+
+			<div class="inner-wrap">
+			<div class="inner" data-prepend-menu-mobile="true">
+
+				<a class="slide_out_area_close" href="#"><span class="screen-reader-text">Close Menu</span>
+					<span class="close-wrap"> <span class="close-line close-line1"></span> <span class="close-line close-line2"></span> </span>				</a>
+
+
+									<div class="off-canvas-menu-container mobile-only" role="navigation">
+
+						
+						<ul class="menu">
+							<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2172"><a href="/" aria-haspopup="true" aria-expanded="false">병원소개</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2136"><a href="/">의료진 소개</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2135"><a href="/">병원 둘러보기</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2134"><a href="/">진료시간/오시는길</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2137"><a href="/">비급여항목안내</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2074"><a href="/">피부질환 진료</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2124 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-2173"><a href="/" aria-current="page" aria-haspopup="true" aria-expanded="false">피부미용 시술/관리</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2124 current_page_item menu-item-2142"><a href="/" aria-current="page">색소 · 여드름 · 미백</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2141"><a href="/">주름 · 탄력 리프팅</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2140"><a href="/">보톡스 · 필러</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2139"><a href="/">탈모 · 제모</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2138"><a href="/">레이저 시술 비용</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2234"><a href="/">공지/이벤트</a></li>
+
+						</ul>
+
+						<ul class="menu secondary-header-items">
+													</ul>
+					</div>
+										<div class="off-canvas-menu-container" role="navigation">
+						<ul class="menu">
+							<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2172"><a href="/" aria-haspopup="true" aria-expanded="false">병원소개</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2136"><a href="/">의료진 소개</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2135"><a href="/">병원 둘러보기</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2134"><a href="/">진료시간/오시는길</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2137"><a href="/">비급여항목안내</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2074"><a href="/">피부질환 진료</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2124 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-2173"><a href="/" aria-current="page" aria-haspopup="true" aria-expanded="false">피부미용 시술/관리</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2124 current_page_item menu-item-2142"><a href="/" aria-current="page">색소 · 여드름 · 미백</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2141"><a href="/">주름 · 탄력 리프팅</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2140"><a href="/">보톡스 · 필러</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2139"><a href="/">탈모 · 제모</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2138"><a href="/">레이저 시술 비용</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2234"><a href="/">공지/이벤트</a></li>
+
+						</ul>
+
+												
+					</div>
+
+					
+				</div>
+
+				<div class="bottom-meta-wrap"><div id="nav_menu-2" class="widget widget_nav_menu"><div class="menu-main_menu-container"><ul id="menu-main_menu-4" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2172"><a href="/" aria-haspopup="true" aria-expanded="false">병원소개</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2136"><a href="/">의료진 소개</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2135"><a href="/">병원 둘러보기</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2134"><a href="/">진료시간/오시는길</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2137"><a href="/">비급여항목안내</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2074"><a href="/">피부질환 진료</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2124 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-2173"><a href="/" aria-current="page" aria-haspopup="true" aria-expanded="false">피부미용 시술/관리</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2124 current_page_item menu-item-2142"><a href="/" aria-current="page">색소 · 여드름 · 미백</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2141"><a href="/">주름 · 탄력 리프팅</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2140"><a href="/">보톡스 · 필러</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2139"><a href="/">탈모 · 제모</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2138"><a href="/">레이저 시술 비용</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2234"><a href="/">공지/이벤트</a></li>
+</ul></div></div></div><!--/bottom-meta-wrap--></div> <!--/inner-wrap-->
+				</div>
+		
+</div> <!--/ajax-content-wrap-->
+
+</div></div><!--/ocm-effect-wrap--><script type="text/html" id="wpb-modifications"> window.wpbCustomElement = 1; </script><link rel='stylesheet' id='vc_animate-css-css' href='../wp-content/plugins/js_composer_salient/assets/lib/vendor/node_modules/animate.css/animate.min.css' type='text/css' media='all' />
+<link data-pagespeed-no-defer data-nowprocket data-wpacu-skip data-no-optimize data-noptimize rel='stylesheet' id='main-styles-non-critical-css' href='../wp-content/themes/salient/css/build/style-non-critical.css' type='text/css' media='all' />
+<link data-pagespeed-no-defer data-nowprocket data-wpacu-skip data-no-optimize data-noptimize rel='stylesheet' id='fancyBox-css' href='../wp-content/themes/salient/css/build/plugins/jquery.fancybox.css' type='text/css' media='all' />
+<link rel='stylesheet' id='nectar-smooth-scroll-css' href='../wp-content/themes/salient/css/build/plugins/lenis.css' type='text/css' media='all' />
+<link data-pagespeed-no-defer data-nowprocket data-wpacu-skip data-no-optimize data-noptimize rel='stylesheet' id='nectar-ocm-core-css' href='../wp-content/themes/salient/css/build/off-canvas/core.css' type='text/css' media='all' />
+<link data-pagespeed-no-defer data-nowprocket data-wpacu-skip data-no-optimize data-noptimize rel='stylesheet' id='nectar-ocm-slide-out-right-hover-css' href='../wp-content/themes/salient/css/build/off-canvas/slide-out-right-hover.css' type='text/css' media='all' />
+<script type="text/javascript" src="../wp-content/themes/salient-child/js/my_script.js" id="my_script-js"></script>
+<script type="text/javascript" src="../wp-content/themes/salient/js/build/third-party/jquery.easing.min.js" id="jquery-easing-js"></script>
+<script type="text/javascript" src="../wp-content/themes/salient/js/build/third-party/jquery.mousewheel.min.js" id="jquery-mousewheel-js"></script>
+<script type="text/javascript" src="../wp-content/themes/salient/js/build/priority.js" id="nectar_priority-js"></script>
+<script type="text/javascript" src="../wp-content/themes/salient/js/build/third-party/transit.min.js" id="nectar-transit-js"></script>
+<script type="text/javascript" src="../wp-content/themes/salient/js/build/third-party/waypoints.js" id="nectar-waypoints-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/salient-portfolio/js/third-party/imagesLoaded.min.js" id="imagesLoaded-js"></script>
+<script type="text/javascript" src="../wp-content/themes/salient/js/build/third-party/hoverintent.min.js" id="hoverintent-js"></script>
+<script type="text/javascript" src="../wp-content/themes/salient/js/build/third-party/jquery.fancybox.js" id="fancyBox-js"></script>
+<script type="text/javascript" src="../wp-content/themes/salient/js/build/third-party/anime.min.js" id="anime-js"></script>
+<script type="text/javascript" src="../wp-content/themes/salient/js/build/third-party/superfish.js" id="superfish-js"></script>
+<script type="text/javascript" id="nectar-frontend-js-extra">
+/* <![CDATA[ */
+var nectarLove = {"ajaxurl":"https:\/\/www.kimskinclinic.co.kr\/wp-admin\/admin-ajax.php","postID":"2124","rooturl":"https:\/\/www.kimskinclinic.co.kr","disqusComments":"false","loveNonce":"0b6946245c","mapApiKey":""};
+var nectarOptions = {"delay_js":"false","smooth_scroll":"true","smooth_scroll_strength":"100","quick_search":"false","react_compat":"disabled","header_entrance":"false","body_border_func":"default","body_border_mobile":"0","dropdown_hover_intent":"default","simplify_ocm_mobile":"0","mobile_header_format":"default","ocm_btn_position":"default","left_header_dropdown_func":"default","ajax_add_to_cart":"0","ocm_remove_ext_menu_items":"remove_images","woo_product_filter_toggle":"0","woo_sidebar_toggles":"true","woo_sticky_sidebar":"0","woo_minimal_product_hover":"default","woo_minimal_product_effect":"default","woo_related_upsell_carousel":"false","woo_product_variable_select":"default","woo_using_cart_addons":"false","view_transitions_effect":""};
+var nectar_front_i18n = {"menu":"Menu","next":"Next","previous":"Previous","close":"Close"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../wp-content/themes/salient/js/build/init.js" id="nectar-frontend-js"></script>
+<script type="text/javascript" src="../wp-content/themes/salient/js/build/elements/nectar-sticky-media-sections.js" id="nectar-sticky-media-sections-js"></script>
+<script type="text/javascript" src="../wp-content/themes/salient/js/build/elements/nectar-animated-gradient.js" id="nectar-animated-gradient-js"></script>
+<script type="text/javascript" src="../wp-content/themes/salient/js/build/nectar-smooth-scroll.js" id="nectar-smooth-scroll-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/salient-core/js/third-party/touchswipe.min.js" id="touchswipe-js"></script>
+<script type="text/javascript" id="kboard-script-js-extra">
+/* <![CDATA[ */
+var kboard_settings = {"version":"6.4","home_url":"\/","site_url":"\/","post_url":"https:\/\/www.kimskinclinic.co.kr\/wp-admin\/admin-post.php","ajax_url":"https:\/\/www.kimskinclinic.co.kr\/wp-admin\/admin-ajax.php","plugin_url":"https:\/\/www.kimskinclinic.co.kr\/wp-content\/plugins\/kboard","media_group":"69ca05846d51b","view_iframe":"","locale":"ko_KR","ajax_security":"4ae3c388d8"};
+var kboard_localize_strings = {"kboard_add_media":"KBoard \ubbf8\ub514\uc5b4 \ucd94\uac00","next":"\ub2e4\uc74c","prev":"\uc774\uc804","required":"%s\uc740(\ub294) \ud544\uc218\uc785\ub2c8\ub2e4.","please_enter_the_title":"\uc81c\ubaa9\uc744 \uc785\ub825\ud574\uc8fc\uc138\uc694.","please_enter_the_author":"\uc791\uc131\uc790\ub97c \uc785\ub825\ud574\uc8fc\uc138\uc694.","please_enter_the_password":"\ube44\ubc00\ubc88\ud638\ub97c \uc785\ub825\ud574\uc8fc\uc138\uc694.","please_enter_the_CAPTCHA":"\uc606\uc5d0 \ubcf4\uc774\ub294 \ubcf4\uc548\ucf54\ub4dc\ub97c \uc785\ub825\ud574\uc8fc\uc138\uc694.","please_enter_the_name":"\uc774\ub984\uc744 \uc785\ub825\ud574\uc8fc\uc138\uc694.","please_enter_the_email":"\uc774\uba54\uc77c\uc744 \uc785\ub825\ud574\uc8fc\uc138\uc694.","you_have_already_voted":"\uc774\ubbf8 \ud22c\ud45c\ud588\uc2b5\ub2c8\ub2e4.","please_wait":"\uae30\ub2e4\ub824\uc8fc\uc138\uc694.","newest":"\ucd5c\uc2e0\uc21c","best":"\ucd94\ucc9c\uc21c","updated":"\uc5c5\ub370\uc774\ud2b8\uc21c","viewed":"\uc870\ud68c\uc21c","yes":"\uc608","no":"\uc544\ub2c8\uc694","did_it_help":"\ub3c4\uc6c0\uc774 \ub418\uc5c8\ub098\uc694?","hashtag":"\ud574\uc2dc\ud0dc\uadf8","tag":"\ud0dc\uadf8","add_a_tag":"\ud0dc\uadf8 \ucd94\uac00","removing_tag":"\ud0dc\uadf8 \uc0ad\uc81c","changes_you_made_may_not_be_saved":"\ubcc0\uacbd\uc0ac\ud56d\uc774 \uc800\uc7a5\ub418\uc9c0 \uc54a\uc744 \uc218 \uc788\uc2b5\ub2c8\ub2e4.","name":"\uc774\ub984","email":"\uc774\uba54\uc77c","address":"\uc8fc\uc18c","address_2":"\uc8fc\uc18c 2","postcode":"\uc6b0\ud3b8\ubc88\ud638","phone_number":"\ud734\ub300\ud3f0\ubc88\ud638","mobile_phone":"\ud734\ub300\ud3f0\ubc88\ud638","phone":"\ud734\ub300\ud3f0\ubc88\ud638","company_name":"\ud68c\uc0ac\uba85","vat_number":"\uc0ac\uc5c5\uc790\ub4f1\ub85d\ubc88\ud638","bank_account":"\uc740\ud589\uacc4\uc88c","name_of_deposit":"\uc785\uae08\uc790\uba85","find":"\ucc3e\uae30","rate":"\ub4f1\uae09","ratings":"\ub4f1\uae09","waiting":"\ub300\uae30","complete":"\uc644\ub8cc","question":"\uc9c8\ubb38","answer":"\ub2f5\ubcc0","notify_me_of_new_comments_via_email":"\uc774\uba54\uc77c\ub85c \uc0c8\ub85c\uc6b4 \ub313\uae00 \uc54c\ub9bc \ubc1b\uae30","ask_question":"\uc9c8\ubb38\ud558\uae30","categories":"\uce74\ud14c\uace0\ub9ac","pages":"\ud398\uc774\uc9c0","all_products":"\uc804\uccb4\uc0c1\ud488","your_orders":"\uc8fc\ubb38\uc870\ud68c","your_sales":"\ud310\ub9e4\uc870\ud68c","my_orders":"\uc8fc\ubb38\uc870\ud68c","my_sales":"\ud310\ub9e4\uc870\ud68c","new_product":"\uc0c1\ud488\ub4f1\ub85d","edit_product":"\uc0c1\ud488\uc218\uc815","delete_product":"\uc0c1\ud488\uc0ad\uc81c","seller":"\ud310\ub9e4\uc790","period":"\uae30\uac04","period_of_use":"\uc0ac\uc6a9\uae30\uac04","last_updated":"\uc5c5\ub370\uc774\ud2b8 \ub0a0\uc9dc","list_price":"\uc815\uc0c1\uac00\uaca9","price":"\ud310\ub9e4\uac00\uaca9","total_price":"\ucd1d \uac00\uaca9","amount":"\uacb0\uc81c\uae08\uc561","quantity":"\uc218\ub7c9","use_points":"\ud3ec\uc778\ud2b8 \uc0ac\uc6a9","my_points":"\ub0b4 \ud3ec\uc778\ud2b8","available_points":"\uc0ac\uc6a9 \uac00\ub2a5 \ud3ec\uc778\ud2b8","apply_points":"\ud3ec\uc778\ud2b8 \uc0ac\uc6a9","buy_it_now":"\uad6c\ub9e4\ud558\uae30","sold_out":"\ud488\uc808","for_free":"\ubb34\ub8cc","pay_s":"%s \uacb0\uc81c","payment_method":"\uacb0\uc81c\uc218\ub2e8","credit_card":"\uc2e0\uc6a9\uce74\ub4dc","make_a_deposit":"\ubb34\ud1b5\uc7a5\uc785\uae08","reward_point":"\uc801\ub9bd \ud3ec\uc778\ud2b8","download_expiry":"\ub2e4\uc6b4\ub85c\ub4dc \uae30\uac04","checkout":"\uc8fc\ubb38\uc815\ubcf4\ud655\uc778","buyer_information":"\uc8fc\ubb38\uc790","applying_cash_receipts":"\ud604\uae08\uc601\uc218\uc99d \uc2e0\uccad","applying_cash_receipt":"\ud604\uae08\uc601\uc218\uc99d \uc2e0\uccad","cash_receipt":"\ud604\uae08\uc601\uc218\uc99d","privacy_policy":"\uac1c\uc778 \uc815\ubcf4 \uc815\ucc45","i_agree_to_the_privacy_policy":"\uac1c\uc778 \uc815\ubcf4 \uc815\ucc45\uc5d0 \ub3d9\uc758\ud569\ub2c8\ub2e4.","i_confirm_the_terms_of_the_transaction_and_agree_to_the_payment_process":"\uac70\ub798\uc870\uac74\uc744 \ud655\uc778\ud588\uc73c\uba70 \uacb0\uc81c\uc9c4\ud589\uc5d0 \ub3d9\uc758\ud569\ub2c8\ub2e4.","today":"\uc624\ub298","yesterday":"\uc5b4\uc81c","this_month":"\uc774\ubc88\ub2ec","last_month":"\uc9c0\ub09c\ub2ec","last_30_days":"\ucd5c\uadfc30\uc77c","agree":"\ucc2c\uc131","disagree":"\ubc18\ub300","opinion":"\uc758\uacac","comment":"\ub313\uae00","comments":"\ub313\uae00","your_order_has_been_cancelled":"\uc8fc\ubb38\uc774 \ucde8\uc18c\ub418\uc5c8\uc2b5\ub2c8\ub2e4.","order_information_has_been_changed":"\uc8fc\ubb38\uc815\ubcf4\uac00 \ubcc0\uacbd\ub418\uc5c8\uc2b5\ub2c8\ub2e4.","order_date":"\uc8fc\ubb38\uc77c","point_payment":"\ud3ec\uc778\ud2b8 \uacb0\uc81c","cancel_point_payment":"\ud3ec\uc778\ud2b8 \uacb0\uc81c \ucde8\uc18c","paypal":"\ud398\uc774\ud314","point":"\ud3ec\uc778\ud2b8","zipcode":"\uc6b0\ud3b8\ubc88\ud638","this_year":"\uc62c\ud574","last_year":"\uc791\ub144","period_total":"\uae30\uac04 \ud569\uacc4","total_revenue":"\uc804\uccb4 \uc218\uc775","terms_of_service":"\uc774\uc6a9\uc57d\uad00","i_agree_to_the_terms_of_service":"\uc774\uc6a9\uc57d\uad00\uc5d0 \ub3d9\uc758\ud569\ub2c8\ub2e4.","your_shopping_cart_is_empty":"\uc7a5\ubc14\uad6c\ub2c8\uac00 \ube44\uc5b4 \uc788\uc2b5\ub2c8\ub2e4!","category":"\uce74\ud14c\uace0\ub9ac","select":"\uc120\ud0dd","category_select":"\uce74\ud14c\uace0\ub9ac \uc120\ud0dd","information":"\uc815\ubcf4","telephone":"\uc804\ud654\ubc88\ud638","items":"\ud488\ubaa9","total_amount":"\ud569\uacc4\uae08\uc561","total_quantity":"\ucd1d\uc218\ub7c9","make_payment":"\uacb0\uc81c\ud558\uae30","add":"\ucd94\uac00","close":"\ub2eb\uae30"};
+var kboard_comments_localize_strings = {"reply":"\ub2f5\uae00","cancel":"\ucde8\uc18c","please_enter_the_author":"\uc791\uc131\uc790\uba85\uc744 \uc785\ub825\ud574\uc8fc\uc138\uc694.","please_enter_the_password":"\ube44\ubc00\ubc88\ud638\ub97c \uc785\ub825\ud574\uc8fc\uc138\uc694.","please_enter_the_CAPTCHA":"\ubcf4\uc548\ucf54\ub4dc\ub97c \uc785\ub825\ud574\uc8fc\uc138\uc694.","please_enter_the_content":"\ub0b4\uc6a9\uc744 \uc785\ub825\ud574\uc8fc\uc138\uc694.","are_you_sure_you_want_to_delete":"\uc0ad\uc81c \ud558\uc2dc\uaca0\uc2b5\ub2c8\uae4c?","please_wait":"\uc7a0\uc2dc\ub9cc \uae30\ub2e4\ub824\uc8fc\uc138\uc694.","name":"\uc774\ub984","email":"\uc774\uba54\uc77c","address":"\uc8fc\uc18c","postcode":"\uc6b0\ud3b8\ubc88\ud638","phone_number":"\uc5f0\ub77d\ucc98","find":"\ucc3e\uae30","rate":"\ub4f1\uae09","ratings":"\ub4f1\uae09","waiting":"\ub300\uae30","complete":"\uc644\ub8cc","question":"\uc9c8\ubb38","answer":"\ub2f5\ubcc0","notify_me_of_new_comments_via_email":"\uc774\uba54\uc77c\ub85c \uc0c8\ub85c\uc6b4 \ub313\uae00 \uc54c\ub9bc \ubc1b\uae30","comment":"\ub313\uae00","comments":"\ub313\uae00"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../wp-content/plugins/kboard/template/js/script.js" id="kboard-script-js"></script>
+<script type="text/javascript" src="../assets/t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js" id="daum-postcode-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/js_composer_salient/assets/js/dist/js_composer_front.min.js" id="wpb_composer_front_js-js"></script>
+<script></script>
+<script>
+(function() {
+  // 1. Next.js App Router RSC 자동 요청 차단 (전체 리로드 방지)
+  var _origFetch = window.fetch;
+  window.fetch = function(url, opts) {
+    var urlStr = typeof url === 'string' ? url : (url && url.url) || '';
+    var headers = (opts && opts.headers) || {};
+    var isRSC = headers['Next-Router-State-Tree'] ||
+                headers['RSC'] === '1' ||
+                headers['Next-Url'] ||
+                urlStr.indexOf('_rsc=') !== -1;
+    if(isRSC) return Promise.resolve(new Response('', { status: 204 }));
+    return _origFetch.apply(this, arguments);
+  };
+
+  // 2. 동일 URL replaceState 무시 (리로드 루프 방지)
+  var _replaceState = history.replaceState;
+  history.replaceState = function(state, title, url) {
+    if(url && url.toString() === location.pathname + location.search) return;
+    return _replaceState.apply(this, arguments);
+  };
+
+  // 3. Next.js 링크 클릭 시 일반 페이지 이동으로 강제 전환
+  document.addEventListener('click', function(e) {
+    var link = e.target.closest('a[href]');
+    if (!link) return;
+    try {
+      var u = new URL(link.href);
+      if (u.origin === window.location.origin) {
+        e.preventDefault();
+        e.stopImmediatePropagation();
+        window.location.href = link.href;
+      }
+    } catch(err) {}
+  }, true);
+})();
+</script></body>
+</html>

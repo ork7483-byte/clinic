@@ -1,0 +1,77 @@
+/* PC POPUPS */
+
+/* basic popup style */
+#jt-easy-popup-container .jtpop-page {position:fixed; top:0px; left:0px; width:100%; height:100%; z-index:99999; background:#000; display:none;} 
+#jt-easy-popup-container .jt-popup img {box-shadow: 10px 10px 50px #1a1a1a; cursor:move; margin:0;}
+#jt-easy-popup-container .jt-popup p {line-height:0;}
+#jt-easy-popup-container .jt-popup a {line-height:0;}
+#jt-easy-popup-container .jt-popup a:hover {opacity:1;}
+#jt-easy-popup-container .jt-popup a img {cursor:pointer;}
+#jt-easy-popup-container .jt-popup a:hover img {opacity:1;}
+
+#jt-easy-popup-container .jt-popup img.img_radius_5 {border-radius:5px;}
+#jt-easy-popup-container .jt-popup img.img_radius_10 {border-radius:10px;}
+#jt-easy-popup-container .jt-popup img.img_radius_15 {border-radius:15px;}
+
+#jt-easy-popup-container .jtpop-bgs{position:absolute; top:0px; left:0px; z-index: 100000; display:none; line-height:0;}
+#jt-easy-popup-container .popup_footer{position:absolute; bottom:0px; left:13px; height:25px;}
+#jt-easy-popup-container .notoday {display:inline-block;}
+#jt-easy-popup-container .notoday p {font-family: '돋움', 'Dotum', sans-serif; font-size:12px; margin:0; cursor:pointer; line-height:1; display:inline-block; z-index:100004;}
+#jt-easy-popup-container .notoday p i {font-size:14px; float:left; margin:0px 4px 0 0;}
+#jt-easy-popup-container .notoday .close_today_black {color:#242424;}
+#jt-easy-popup-container .notoday .close_today_white {color:#f2f2f2;}
+
+#jt-easy-popup-container .popclose {position:absolute; top:4px; right:15px; cursor:pointer; padding:0; z-index:100004;}
+#jt-easy-popup-container .popclose p {font-size:26px; margin:0; line-height:1.5;}
+#jt-easy-popup-container .popclose .close_black {color:#242424;}
+#jt-easy-popup-container .popclose .close_white {color:#f2f2f2;}
+#jt-easy-popup-container .popclose .close_black_white_mobile {color:#f2f2f2;}
+
+
+
+/* basic popup style2 */
+#jt-easy-popup-container .style2 .jt-popup > div {line-height:0;}
+#jt-easy-popup-container .style2 .jt-popup img {border-radius:0; padding-bottom:15px;}
+#jt-easy-popup-container .style2 .popup_footer {left:0; bottom:-15px; background:#000; height:30px; width:100%;}
+#jt-easy-popup-container .style2 .popclose {top:inherit; bottom:-9px; z-index:10; right:10px;}
+#jt-easy-popup-container .style2 .popclose p {font-size:20px; line-height:1;}
+#jt-easy-popup-container .style2 .notoday p {margin:9px 0 0 10px !important; line-height:1;}
+#jt-easy-popup-container .style2 .notoday p i {margin:-1px 4px 0 0;}
+
+#jt-easy-popup-container .style2 .jt-popup img.img_radius_5 {border-top-left-radius:5px; border-top-right-radius:5px; margin-top:-3px;}
+#jt-easy-popup-container .style2 .jt-popup img.img_radius_10 {border-top-left-radius:10px; border-top-right-radius:10px; margin-top:-6px;}
+#jt-easy-popup-container .style2 .jt-popup img.img_radius_15 {border-top-left-radius:15px; border-top-right-radius:15px; margin-top:-10px;}
+
+#jt-easy-popup-container .style2 .footer_radius_5 {border-bottom-left-radius:5px; border-bottom-right-radius:5px;}
+#jt-easy-popup-container .style2 .footer_radius_10 {border-bottom-left-radius:10px; border-bottom-right-radius:10px;}
+#jt-easy-popup-container .style2 .footer_radius_15 {border-bottom-left-radius:15px; border-bottom-right-radius:15px;}
+
+
+
+/* no - shadow */
+#jt-easy-popup-container .noshadow .jt-popup img {box-shadow:none !important;}
+#jt-easy-popup-container .noshadow.style2 {box-shadow:none !important;}
+
+
+
+/* mobile popup style */ 
+#jt-easy-popup-container .mobile_close {position:fixed; top:0; right:3%; line-height:35px; font-size:24px; height:40px; z-index:100004; color:#fff; display:none;}
+#jt-easy-popup-container.mobile .mobile_popup .jt-popup > div > p {margin-bottom:0;}
+
+
+
+/* mobile popup slider */
+#jt-easy-popup-container .popup_bullet {position:fixed; top:0; left:3%; width:100%; height:40px; line-height:40px; text-align:left; z-index:100002; display:none;}
+#jt-easy-popup-container.mobile .popup_bullet {/*display:block;*/}
+#jt-easy-popup-container.mobile .popbullet {display:none; width:12px; height:12px; border-radius:6px; background:#fff; margin:0 5px; line-height:30px;}
+#jt-easy-popup-container.mobile .popbullet:first-child {margin-left:0;}
+#jt-easy-popup-container.mobile .popbullet.view {background-color:var(--nectar-extra-color-1);}
+
+
+@media screen and (min-width: 690px) and (max-width: 1280px) {
+  #jt-easy-popup-container .view_popup {
+    width: 49vw;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
