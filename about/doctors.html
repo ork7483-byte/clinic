@@ -1150,19 +1150,6 @@ var kboard_comments_localize_strings = {"reply":"\ub2f5\uae00","cancel":"\ucde8\
     return _replaceState.apply(this, arguments);
   };
 
-  // 3. Next.js 링크 클릭 시 일반 페이지 이동으로 강제 전환
-  document.addEventListener('click', function(e) {
-    var link = e.target.closest('a[href]');
-    if (!link) return;
-    try {
-      var u = new URL(link.href);
-      if (u.origin === window.location.origin) {
-        e.preventDefault();
-        e.stopImmediatePropagation();
-        window.location.href = link.href;
-      }
-    } catch(err) {}
-  }, true);
 })();
 </script></body>
 </html>

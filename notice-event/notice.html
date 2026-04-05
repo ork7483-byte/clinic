@@ -1054,19 +1054,6 @@ var kboard_current = {"board_id":"4","content_uid":"","use_tree_category":"","tr
     return _replaceState.apply(this, arguments);
   };
 
-  // 3. Next.js 링크 클릭 시 일반 페이지 이동으로 강제 전환
-  document.addEventListener('click', function(e) {
-    var link = e.target.closest('a[href]');
-    if (!link) return;
-    try {
-      var u = new URL(link.href);
-      if (u.origin === window.location.origin) {
-        e.preventDefault();
-        e.stopImmediatePropagation();
-        window.location.href = link.href;
-      }
-    } catch(err) {}
-  }, true);
 })();
 </script></body>
 </html>
